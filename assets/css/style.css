@@ -59,3 +59,19 @@ body {
 .fact-card{
     padding: 30px;
 }
+
+#card-1 {
+    display: none;
+}
+
+#card-2 {
+    display: none;
+}
+
+#card-3 {
+    display: none;
+}
+
+#card-4 {
+    display: none;
+}
