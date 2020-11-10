@@ -57,15 +57,15 @@
 
         <section class="container-fluid skills">
             <div class="row">
-                <div class="col-6">
+                <div class="col-sm-12 col-md-6">
                     <h2>Skills</h2>
                     <p>Text about learning basic netball skills</p>
                 </div>
-                <div class="col-6">
-                    <h2> Insert Video</h2>
+                <div class="col-sm-12 col-md-6 embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3tYHHySKIf0" allowfullscreen></iframe>>
             </div>
         </section>
-
+  <!--Code for cards from Bootstrap-->
         <section class="container-fluid facts">
             <div class="row text-center">
                 <div class="col-12">
@@ -74,19 +74,47 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 fact-1">
-                    <p>Fun fact 1</p>
+                <div class="col-sm-6 fact-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">When?</h5>
+                            <p class="card-text">When did netball begin?</p>
+                            <a href="#" class="btn btn-primary">Find out</a>
+                            <p class="card-text">The rules of netball were first published in 1900</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6 fact-2">
-                    <p>Fun fact 2</p>
+                <div class="col-sm-6 fact-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Who?</h5>
+                            <p class="card-text">Who can play netball?</p>
+                            <a href="#" class="btn btn-primary">Find out</a>
+                            <p class="card-text">Netball is predominantly a women's sport, although male participation is growing in some countries such as Australia and New Zealand</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 fact-3">
-                    <p>Fun fact 3</p>
+                <div class="col-sm-6 fact-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Where?</h5>
+                            <p class="card-text">Where do people play netball?</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text">According to the INFA over 20 million people play netball in more than 72 countries. It is currently is currently played at the semi-professional level in England, Jamaica, South Africa, Singapore, Malawi, Hong Kong, Fiji, Barbados, Trinidad & Tobago, Australia & New Zealand.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6 fact-4">
-                    <p>Fun fact 4</p>
+                <div class="col-sm-6 fact-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">England Netball</h5>
+                            <p class="card-text">Are England Netball best in the world?</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text">England Netball are currently ranked third in the world</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -133,5 +161,25 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </body>
 </html>
+
+
+Old code:
+
+            <div class="row">
+                <div class="col-6 fact-1">
+                    <p>Fun fact 1</p>
+                </div>
+                <div class="col-6 fact-2">
+                    <p>Fun fact 2</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 fact-3">
+                    <p>Fun fact 3</p>
+                </div>
+                <div class="col-6 fact-4">
+                    <p>Fun fact 4</p>
+                </div>
+            </div>
 
    
