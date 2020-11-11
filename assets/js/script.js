@@ -13,10 +13,3 @@ $(document).ready(function(){
         $("#card-4").toggle();
     });
 });
-
-
-
-
-        ("toggle-btn-1").click(function(){
-        ("#card-1").slideDown()
-    })

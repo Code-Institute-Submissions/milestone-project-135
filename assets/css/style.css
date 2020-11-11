@@ -75,3 +75,8 @@ body {
 #card-4 {
     display: none;
 }
+
+
+.newsletter-form {
+    width: 500px;
+}
