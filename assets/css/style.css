@@ -79,4 +79,17 @@ body {
 
 .newsletter-form {
     width: 500px;
+    padding: 20px;
+}
+
+/*-------------------------------------------------------- Media queries */
+
+@media screen and (max-width: 540px) {
+    .newsletter-form {
+        width: 260px;
+    }
+}
+
+#map {
+    min-height: 360px;
 }
