@@ -17,27 +17,27 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a class="navbar-brand" href="#">The Netball Hub</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Fun Facts</a>
+                        <a class="nav-link" href="#facts">Fun Facts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Clubs</a>
+                        <a class="nav-link" href="#clubs">Clubs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Newsletter</a>
+                        <a class="nav-link" href="#newsletter">Newsletter</a>
                     </li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@
             </div>
         </section>
 
-        <section class="container-fluid about">
+        <section class="container-fluid about-style" id="about">
             <div class="row text-center">
                 <div class="col">
                     <h2>About Us</h2> 
@@ -62,18 +62,20 @@
             </div>
         </section>
 
-        <section class="container-fluid skills">
+        <section class="container-fluid skills-style" id="skills">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <h2>Skills</h2>
                     <p>Text about learning basic netball skills</p>
                 </div>
                 <div class="col-sm-12 col-md-6 embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3tYHHySKIf0" allowfullscreen></iframe>>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3tYHHySKIf0" allowfullscreen></iframe>
+            </div>
             </div>
         </section>
+
   <!--Code for cards from Bootstrap-->
-        <section class="container-fluid facts">
+        <section class="container-fluid facts-style" id="facts">
             <div class="row text-center">
                 <div class="col-12">
                     <h2>Did you know?</h2>
@@ -127,22 +129,20 @@
         </section>
 
 
-        <section class="container-fluid map">
+        <section class="container-fluid clubs-style" id="clubs">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-12 col-md-6">
                     <h2>Support Your Local Team</h2>
                     <p>Text about superleague etc</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="map">
-                    </div>
+                <div class="col-sm-12 col-md-6" id="map">
                 </div>
             </div>
         </section>
 
-        <section class="container-fluid newsletter">
+
+
+        <section class="container-fluid newsletter-style" id="newsletter">
             <div class="row text-center">
                 <div class="col-12">
                     <div>
@@ -177,12 +177,13 @@
             </div>
         </footer>
 
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
         <!--Bootstrap scripts-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
         
-        <!--Google Maps API & Marker Cluster scripts-->
 
         
         <!--Local scripts-->
