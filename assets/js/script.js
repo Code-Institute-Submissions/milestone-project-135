@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     // Toggles paragraphs display
         $("#toggle-btn-1").click(function(){
@@ -12,4 +13,10 @@ $(document).ready(function(){
         $("#toggle-btn-4").click(function(){
         $("#card-4").toggle();
     });
+
+
+  $(".nav-link").on("click", function(){
+    $("a.nav-link").removeClass("active");
+    $(this).addClass("active");
+  });
 });
