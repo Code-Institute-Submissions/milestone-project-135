@@ -2,7 +2,7 @@ function initMap() {
   var manchester = {
     info:
       '<strong>Manchester Thunder</strong>\
-    	<a href="https://www.manchesterthunder.co.uk">View team website</a>',
+    	<a href="https://www.manchesterthunder.co.uk" target="_blank">View team website</a>',
     lat: 53.483959,
     long: -2.244644,
   }
@@ -10,7 +10,7 @@ function initMap() {
   var bath = {
     info:
       '<strong>Bath</strong>\
-    	<a href="https://www.teambath.com/sport/netball/">View team website</a>',
+    	<a href="https://www.teambath.com/sport/netball/" target="_blank">View team website</a>',
     lat: 51.380001,
     long: -2.360000,
   }
@@ -18,7 +18,7 @@ function initMap() {
   var london = {
     info:
       '<strong>London Pulse</strong><br>\
-    	<a href="https://londonpulsenetball.com/">View team website</a>',
+    	<a href="https://londonpulsenetball.com/" target="_blank">View team website</a>',
     lat: 51.509865,
     long: -0.118092,
   }
@@ -26,7 +26,7 @@ function initMap() {
 var hatfield = {
     info:
       '<strong>Saracens Mavericks</strong><br>\
-    	<a href="https://www.mavericksnetball.co.uk/">View team website</a>',
+    	<a href="https://www.mavericksnetball.co.uk/" target="_blank">View team website</a>',
     lat: 51.7634,
     long: -0.22419,
   }
