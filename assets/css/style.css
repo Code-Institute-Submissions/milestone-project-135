@@ -108,6 +108,21 @@ p {
     padding: 30px;
 }
 
+.card-title-1 {
+    color: #ff4d4d;
+}
+
+.card-title-2 {
+    color: #17a2b8;
+}
+
+.card-title-3 {
+    color:#ffcc00;
+}
+
+.card-title-4 {
+    color:#ff4d4d;
+}
 #card-1 {
     display: none;
 }
