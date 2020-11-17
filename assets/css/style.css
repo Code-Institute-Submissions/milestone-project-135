@@ -74,6 +74,34 @@ p {
     padding: 50px;
 }
 
+/*--------------------------------------------------------Heading styles */
+
+.about-heading {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+.skills-heading {
+    color: #17a2b8;
+    font-weight: bold;
+}
+
+.facts-heading {
+       color: #ffcc00;
+    font-weight: bold; 
+}
+
+.clubs-heading {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+.newsletter-heading {
+    color: #17a2b8;
+    font-weight: bold;
+}
+
+
 /*--------------------------------------------------------Fact cards */
 
 .fact-card{
@@ -103,6 +131,10 @@ p {
 .newsletter-form {
     width: 500px;
     padding: 20px;
+}
+
+.newsletter-btn {
+    padding: 10px;
 }
 
 /*-------------------------------------------------------- Media queries */
