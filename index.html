@@ -15,8 +15,8 @@
         </script>
         <title>The Netball Hub</title>
     </head>
-
     <body>
+      <!--Collapsible navbar - Bootstrap-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo.png" alt="The Netball Hub">
@@ -44,30 +44,30 @@
                 </ul>
             </div>
         </nav>
-
+<!--Hero image section-->
         <section class="container-fluid hero-image">
             <div class="row">
                 <div class="col">
                     <div class="hero-text">
-                        <h1>INTRO TITLE</h1>
+                        <h1>Join our netball community</h1>
                     </div>
                 </div>
             </div>
         </section>
-
+<!--About section-->
         <section class="container-fluid about-style" id="about">
             <div class="row text-center">
                 <div class="col">
-                    <h2>About Us</h2> 
+                    <h2 class="about-heading">About Us</h2> 
                     <p>Information about the website and aims</p>
                 </div>
             </div>
         </section>
-
+<!--Skills section-->
         <section class="container-fluid skills-style" id="skills">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <h2>Skills</h2>
+                    <h2 class="skills-heading">Skills</h2>
                     <p>Text about learning basic netball skills</p>
                 </div>
                 <div class="col-sm-12 col-md-6 embed-responsive embed-responsive-16by9">
@@ -75,19 +75,18 @@
             </div>
             </div>
         </section>
-
-  <!--Code for cards from Bootstrap-->
+<!--Fact cards - Bootstrap-->
         <section class="container-fluid facts-style" id="facts">
             <div class="row text-center">
                 <div class="col-12">
-                    <h2>Did you know?</h2>
+                    <h2 class="facts-heading">Did you know?</h2>
                     <h3>Interesting and fun facts about netball to share with your little ones!</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6 fact-card">
-                    <div class="card">
-                        <div class="card-body">
+                    <div class="card w-75">
+                        <div class="card-body text-center">
                             <h5 class="card-title">When?</h5>
                             <p class="card-text">When did netball begin?</p>
                             <button class="btn btn-primary" id="toggle-btn-1">Find out</button>
@@ -96,8 +95,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 fact-card">
-                    <div class="card">
-                        <div class="card-body">
+                    <div class="card w-75">
+                        <div class="card-body text-center">
                             <h5 class="card-title">Who?</h5>
                             <p class="card-text">Who can play netball?</p>
                             <button class="btn btn-primary" id="toggle-btn-2">Find out</button>
@@ -108,8 +107,8 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 fact-card">
-                    <div class="card">
-                        <div class="card-body">
+                    <div class="card w-75">
+                        <div class="card-body text-center">
                             <h5 class="card-title">Where?</h5>
                             <p class="card-text">Where do people play netball?</p>
                             <button class="btn btn-primary" id="toggle-btn-3">Go somewhere</button>
@@ -118,8 +117,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 fact-card">
-                    <div class="card">
-                        <div class="card-body">
+                    <div class="card w-75">
+                        <div class="card-body text-center">
                             <h5 class="card-title">England Netball</h5>
                             <p class="card-text">Are England Netball best in the world?</p>
                             <button class="btn btn-primary" id="toggle-btn-4">Go somewhere</button>
@@ -129,28 +128,23 @@
                 </div>
             </div>
         </section>
-
-
+  <!--Clubs section-->
         <section class="container-fluid clubs-style" id="clubs">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <h2>Support Your Local Team</h2>
+                    <h2 class="clubs-heading">Support Your Local Team</h2>
                     <p>Text about superleague etc</p>
                 </div>
                 <div class="col-sm-12 col-md-6" id="map">
                 </div>
             </div>
         </section>
-
-
-
+  <!--Newsletter section-->
         <section class="container-fluid newsletter-style" id="newsletter">
             <div class="row text-center">
                 <div class="col-12">
-                    <div>
-                        <h2>Sign up to our newsletter!</h2>
+                        <h2 class="newsletter-heading">Sign up to our newsletter!</h2>
                         <h3>Keep in the loop with our monthly newsletters, containing more drills and netball updates</h3>
-                    </div>
                 </div>
             </div>
             <div class="row">
@@ -160,13 +154,15 @@
                             <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name" required/>
                             <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name" required/>
                             <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                            <div class="text-center newsletter-btn">
                             <button type="submit" class="btn btn-secondary center-block">Send</button>
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-
+<!--Footer-->
         <footer id="footer">
             <div class="container-fluid">
                 <div class="row text-center">
@@ -178,16 +174,14 @@
                 </div>
             </div>
         </footer>
-
+<!--Scroll to top button - code from: xx-->
          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
         <!--Bootstrap scripts-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        
-
-        
+            
         <!--Local scripts-->
         <script src="assets/js/script.js"></script>
         <script src="assets/js/sendEmail.js"></script>
@@ -195,21 +189,3 @@
 
     </body>
 </html>
-
-
-<!---<section class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <form id="contact-form">
-                        <input type="hidden" name="contact_number">
-                        <label>Name</label>
-                        <input type="text" name="user_name">
-                        <label>Email</label>
-                        <input type="email" name="user_email">
-                        <label>Message</label>
-                        <textarea name="message"></textarea>
-                        <input type="submit" value="Send">
-                    </form>
-                </div>
-            </div>
-        </section> ----->
