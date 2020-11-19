@@ -75,59 +75,40 @@
             </div>
             </div>
         </section>
-<!--Fact cards - Bootstrap-->
-        <section class="container-fluid facts-style" id="facts">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h2 class="facts-heading">Did you know?</h2>
-                    <h3>Interesting and fun facts about netball to share with your little ones!</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 fact-card">
-                    <div class="card w-75">
-                        <div class="card-body text-center">
-                            <h5 class="card-title-1">When?</h5>
-                            <p class="card-text">When did netball begin?</p>
-                            <button class="btn btn-primary" id="toggle-btn-1">Find out</button>
-                            <p class="card-text" id="card-1">The rules of netball were first published in 1900</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 fact-card">
-                    <div class="card w-75">
-                        <div class="card-body text-center">
-                            <h5 class="card-title-2">Who?</h5>
-                            <p class="card-text">Who can play netball?</p>
-                            <button class="btn btn-primary" id="toggle-btn-2">Find out</button>
-                            <p class="card-text" id="card-2">Netball is predominantly a women's sport, although male participation is growing in some countries such as Australia and New Zealand</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 fact-card">
-                    <div class="card w-75">
-                        <div class="card-body text-center">
-                            <h5 class="card-title-3">Where?</h5>
-                            <p class="card-text">Where do people play netball?</p>
-                            <button class="btn btn-primary" id="toggle-btn-3">Go somewhere</button>
-                            <p class="card-text" id="card-3">According to the INFA over 20 million people play netball in more than 72 countries. It is currently is currently played at the semi-professional level in England, Jamaica, South Africa, Singapore, Malawi, Hong Kong, Fiji, Barbados, Trinidad & Tobago, Australia & New Zealand.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 fact-card">
-                    <div class="card w-75">
-                        <div class="card-body text-center">
-                            <h5 class="card-title-4">England Netball</h5>
-                            <p class="card-text">Are England Netball best in the world?</p>
-                            <button class="btn btn-primary" id="toggle-btn-4">Go somewhere</button>
-                            <p class="card-text" id="card-4">England Netball are currently ranked third in the world</p>
+<!--Skills section-->
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                            <h2 class="facts-heading">Did you know?</h2>
+                            <h3>Interesting and fun facts about netball to share with your little ones!</h3>
+                        <form id="quiz" name="quiz">
+                            <span class="quizspan">
+                            <p class="question">1) In which year did did people first start playing netball in England?</p>
+                            <input type="radio" id="mc1" name="question1" value="2000">2000<br>
+                            <input type="radio" id="mc2" name="question1" value="1900">1900<br>
+                            </span>
+                            <span class="quizspan">
+                            <p class="question">2) Who can play netball?</p>
+                            <input type="radio" id="mc3" name="question2" value="Girls">Girls<br>
+                            <input type="radio" id="mc4" name="question2" value="Girls & Boys">Girls & Boys<br>
+                            </span>
+                            <span class="quizspan">
+                            <p class="question">3) Approximately how many people play netball across the world?</p>
+                            <input type="radio" id="mc5" name="question3" value="3 million">3 million<br>
+                            <input type="radio" id="mc6" name="question3" value="20 milllion">20 million<br>
+                            </span>
+                            <input type="button" id="button" value="Check Results" onclick= "check();">
+                        </form>
+                        <div id="after_submit">
+                        <p id="number_correct"></p>
+                        <button id="fullReset">Try Again</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
   <!--Clubs section-->
         <section class="container-fluid clubs-style" id="clubs">
             <div class="row">
@@ -184,8 +165,64 @@
             
         <!--Local scripts-->
         <script src="assets/js/script.js"></script>
-        <script src="assets/js/sendEmail.js"></script>
+        <script src="assets/js/quiz1.js"></script>
         <script src="assets/js/maps.js"></script>
+        <script src="assets/js/sendEmail.js"></script>
 
     </body>
 </html>
+
+
+<!--Fact cards - Bootstrap
+        <section class="container-fluid facts-style" id="facts">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="facts-heading">Did you know?</h2>
+                    <h3>Interesting and fun facts about netball to share with your little ones!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 fact-card">
+                    <div class="card w-75">
+                        <div class="card-body text-center">
+                            <h5 class="card-title-1">When?</h5>
+                            <p class="card-text">When did netball begin?</p>
+                            <button class="btn btn-primary" id="toggle-btn-1">Find out</button>
+                            <p class="card-text" id="card-1">The rules of netball were first published in 1900</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 fact-card">
+                    <div class="card w-75">
+                        <div class="card-body text-center">
+                            <h5 class="card-title-2">Who?</h5>
+                            <p class="card-text">Who can play netball?</p>
+                            <button class="btn btn-primary" id="toggle-btn-2">Find out</button>
+                            <p class="card-text" id="card-2">Netball is predominantly a women's sport, although male participation is growing in some countries such as Australia and New Zealand</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 fact-card">
+                    <div class="card w-75">
+                        <div class="card-body text-center">
+                            <h5 class="card-title-3">Where?</h5>
+                            <p class="card-text">Where do people play netball?</p>
+                            <button class="btn btn-primary" id="toggle-btn-3">Go somewhere</button>
+                            <p class="card-text" id="card-3">According to the INFA over 20 million people play netball in more than 72 countries. It is currently is currently played at the semi-professional level in England, Jamaica, South Africa, Singapore, Malawi, Hong Kong, Fiji, Barbados, Trinidad & Tobago, Australia & New Zealand.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 fact-card">
+                    <div class="card w-75">
+                        <div class="card-body text-center">
+                            <h5 class="card-title-4">England Netball</h5>
+                            <p class="card-text">Are England Netball best in the world?</p>
+                            <button class="btn btn-primary" id="toggle-btn-4">Go somewhere</button>
+                            <p class="card-text" id="card-4">England Netball are currently ranked third in the world</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->

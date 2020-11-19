@@ -185,3 +185,29 @@ p {
 #myBtn:hover {
   background-color: #555;
 }
+
+/*-------------------------------------------------------- Quiz */
+
+
+#quiz {
+    margin-left: 10px;
+    background: #ffcc00;
+    padding: 10px; 20px; 10px; 20px;
+    width: 950px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+#after_submit {
+    visibility: hidden;
+}
+
+.question {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quizspan {
+    padding: 10px;
+}
