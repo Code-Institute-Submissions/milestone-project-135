@@ -259,12 +259,12 @@ This project was developed in GitPod and deployed to the hosting platform [GitHu
 I took the following steps to deploy the Fray + Anchor through to GitHub Pages:
 -	Loaded GitHub in Chrome web browser and signed in
 -	Clicked on [My Repositories](https://github.com/chloelewisdev?tab=repositories)
--	Navigated to [milestone-project-1](https://github.com/chloelewisdev/milestone-project-1)
--	Selected [Settings](https://github.com/chloelewisdev/milestone-project-1/settings)
+-	Navigated to [milestone-project-2](https://github.com/chloelewisdev/milestone-project-2)
+-	Selected [Settings](https://github.com/chloelewisdev/milestone-project-2/settings)
 -	Scrolled down to the GitHub Pages area of the page
 -	Selected ‘Master Branch’ from the ‘Source’ dropdown menu
 -	Confirmed my selection
--	Fray+Anchor is now live on [GitHub Pages](https://chloelewisdev.github.io/milestone-project-1/index.html)  
+-	The Netball Hub is now live on [GitHub Pages](https://chloelewisdev.github.io/milestone-project-2)  
 
 To deploy your own version of the website:
 
