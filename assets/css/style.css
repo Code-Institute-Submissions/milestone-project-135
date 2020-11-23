@@ -193,7 +193,6 @@ p {
     margin-left: 10px;
     background: #ffcc00;
     padding: 10px; 20px; 10px; 20px;
-    width: 950px;
     border-radius: 20px;
     display: inline-block;
     text-align: center;
@@ -210,4 +209,10 @@ p {
 
 .quizspan {
     padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .quiz-style {
+        width: 700px;
+    }
 }
