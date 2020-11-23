@@ -8,15 +8,17 @@ function check(){
     if (question1 == "1900"){
         correct++;
     }
+    
     if (question2 == "Girls & Boys"){
         correct++;
     }
     if (question3 == "20 million"){
         correct++;
     }
-
+    
     document.getElementById("after_submit").style.visibility = "visible";
     document.getElementById("number_correct").innerHTML = "You got" + correct + " correct.";
+
 }
 
     var fullReset = document.getElementById('fullReset');

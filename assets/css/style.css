@@ -86,9 +86,10 @@ p {
     font-weight: bold;
 }
 
-.facts-heading {
-       color: #ffcc00;
+.quiz-heading {
+    color: #ffcc00;
     font-weight: bold; 
+    padding: 10px;
 }
 
 .clubs-heading {
@@ -102,7 +103,7 @@ p {
 }
 
 
-/*--------------------------------------------------------Fact cards */
+/*--------------------------------------------------------Fact cards 
 
 .fact-card{
     padding: 30px;
@@ -138,7 +139,7 @@ p {
 #card-4 {
     display: none;
 }
-
+*/
 
 /*-------------------------------------------------------- newsletter */
 
@@ -187,7 +188,9 @@ p {
 }
 
 /*-------------------------------------------------------- Quiz */
-
+.quiz-section-style{
+    padding: 50px;
+}
 
 #quiz {
     margin-left: 10px;
@@ -216,3 +219,4 @@ p {
         width: 700px;
     }
 }
+
