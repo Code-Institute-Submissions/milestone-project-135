@@ -62,11 +62,12 @@ Educate, promote and engage
 ### User Stories
 
 **New users:** 
-* I am a user who is new to netball. I have never really considered the lack of this sport available to young children, and so I'd like to use this website to be better educated. If I then decide that I want to spend my time as a parent promoting this to my children, I want to easily be able to access content that can help me promote and engage my children in this sport. 
+* I am a user who is new to netball. I want to find out more about this sport and how I could introduce my children to it. 
 * I am a user who has played netball previously. I am aware that there is very little netball available for young children. I would like to encourage my children to play this sport, however I have no experience teaching it and so I am looking for this website to provide me with some activities and things I can do with my children based around netball. 
 * I am a user who wants to keep up to date on ways to provide netball to my children, I want to receive the latest netball news and more activities I can do with my children. 
 
 **Returning user:**
+* I am a returning user who previously completed the 'Skills' video with my child. I'm keen to find out where I can access more of these as my children really enjoyed it. 
 * I am a returning user who has already completed the quiz, and followed the video provided, but I am now looking for further things to do and ways to find out more information about netball.
 
 **Business Owner:**
@@ -199,9 +200,108 @@ The Netball Hub informing them to add that particular user to the newsletter mai
 
 *Note: I also found [Stack Overflow](https://stackoverflow.com/), [W3C Schools](https://www.w3schools.com/) and [Start Bootstrap](https://startbootstrap.com/) helpful resources throughout the project, as well as the Code Institute Slack Community.
 
+## Testing:
+
+### Testing User Stories:
+
+* New user - *I am a parent with young children and want to find ways of introducing netball to my children as I have been unable to find any local clubs providing netball for their age.* 
+This user can read more about why netball is beneficial for young children in the 'About Us' section right at the beginning of the website. This probably reassures the user they are in the right 
+place, and they can then visit the 'Skills' section to watch a YouTube video and pick up some skills they can try with their children. They could engage their children in netball straight alway
+by involving them in the short quiz, and they can also look on the map to view the location of superleague teams they could start to support and watch if they live close enough. If they don't live
+close enough, they could visit the team websites and learn more about them to stimulate wider interest. 
+
+* Returning user - *I am a returning user who previously completed the 'Skills' video with my child. I'm keen to find out where I can access more of these as my children really enjoyed it.*
+This user can return to the 'Skills' section, where they will find a link to the England netball web page containing more skills that can be taught at home. 
+
+* Returning user *I am a returning user who has already completed the quiz, and followed the video provided, but I am now looking for further things to do and ways to find out more information about netball.* 
+This user will benefit from going to the newsletter sign up feature which is at the bottom of the page. They can access this by either scrolling down the page, or clicking the 'Newsletter' link in the navigation menu. 
+
+* Project stakeholder - *I am one of the owners of the business and want to see it succeed. I want to promote the issue around the lack of netball for young children, and equip parents with ways netball can introduced at home from a young age. I want parents to sign up to the newsletter to continue to promote the benefits of netball and ways young children can engage in the sport.*
+The stakeholders need the users to be informed by the website, but also engaged and inspired to promote netball to their children. The 'About Us' section at the very beginning of the webiste is very clear - the text is very visible
+and the user is not distracted by any other features at this point. Therefore the issue is communicated at this point, but this then moves straight into ways the issue can be helped. Parents can learn how to do netball skills with their children, 
+take a quiz to help educate their children about netball, and also look at an interactive map to learn about superleague teams. The interactive elements on the website along with the colours help to make the website appealing and fun. 
+
+Something about superleague?
+
+### Validating HTML, CSS and JavaScript code
+
+**HTML** I validated the HTML with the [W3C Markup Validation Service](https://validator.w3.org/)
+Issues found?
+
+**CSS** I validated the CSS with the [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+**JavaScript** 
+Check JSHint?
+Quiz
+Maps
+Newsletter
+Hamburger icon
+
+**GENERAL (Site Testing on live page)**
+navigation and other sections
 
 
+### Testing on different browsers:
+I manually tested the website on the following browsers:
+* Chrome
+* Safari
+* Mozilla Firefox
 
+### Testing responsiveness on multiple devices and screen sizes:
+
+I manually tested the website by using Google Developer Tools to check each individual page and the website as a whole worked on different devices and different screen sizes, including: Moto G4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5 SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro. I also manually tested the site on my MacBook Air, iPad, and iPhone 11. 
+
+### Issues found 
+
+## Deployment
+This project was developed in GitPod and deployed to the hosting platform [GitHub Pages](https://chloelewisdev.github.io/milestone-project-1/index.html).
+
+I took the following steps to deploy the Fray + Anchor through to GitHub Pages:
+-	Loaded GitHub in Chrome web browser and signed in
+-	Clicked on [My Repositories](https://github.com/chloelewisdev?tab=repositories)
+-	Navigated to [milestone-project-1](https://github.com/chloelewisdev/milestone-project-1)
+-	Selected [Settings](https://github.com/chloelewisdev/milestone-project-1/settings)
+-	Scrolled down to the GitHub Pages area of the page
+-	Selected ‘Master Branch’ from the ‘Source’ dropdown menu
+-	Confirmed my selection
+-	Fray+Anchor is now live on [GitHub Pages](https://chloelewisdev.github.io/milestone-project-1/index.html)  
+
+To deploy your own version of the website:
+
+- Have git installed
+- Visit the repository
+- Click 'Clone or download' and copy the code for http
+- Open your chosen IDE (Cloud9, VS Code, etc.)
+- Open a terminal in your root directory
+- Type 'git clone ' followed by the code taken from github repository 
+- When this completes you have your own version of the website. Feel free to make any changes to it. 
+
+The website can be run by opening one of the HTML files within a web browser.
+
+Visit the link provided. Your website with any made changes will appear.
+
+Saved changes to the website will appear here after refreshing the page.
+
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete. It may take a moment for changes to appear on the hosted website.
+
+## Credits
+
+### Content
+The content for this website is fictional and written by myself. The images are almost all my own, except for one which was taken from Unsplash and is referenced below. 
+
+I found the Code Institute Slack Community's Peer Code Review channel really useful to look through when considering the content for this project. 
+
+Thank you to my mentor Seun Owonikoko for suggesting that I look at the following README.md file by fellow Code Institute student Miranda https://github.com/mkthewlis/Milestone-Project-2/blob/master/README.md when doing my own README.md file.
+
+### Media
+* The stock image used for the hero image can be found at the following link: [Unsplash](https://unsplash.com/photos/2JOxWQoxGtU)
+
+## Acknowledgements
+Thanks to my mentor Seun Owonikoko for her useful suggestions and time.  
+
+Thanks to the Code Institute Slack Community.
+
+Thanks also to my family for taking the time to look over the website and their feedback. 
 
 
 <!--I decided that the user would be presented with simple choices on each page – namely: **Home** – view classes or view gallery, on the **Classes** page – submit an enquiry, on the **Gallery** page – send an email, on the **Contact** page – send a message on the contact form. 
