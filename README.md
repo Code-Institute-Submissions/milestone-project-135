@@ -73,13 +73,145 @@ Educate, promote and engage
 * I am one of the owners of the business and want to see it succeed. I want to promote the issue around the lack of netball for young children, and equip parents with ways netball can introduced at home. I want parents to sign up to the newsletter to continue to promote the benefits of netball and ways young children can engage in the sport.
 
 ### Strategy plane: 
-The main goal of the website is to attract users to enquire about an upcoming online macrame class. The website is aimed at a Business to Consumer creative audience. It should include lots of imagery.  I started the UX process by creating the User Stories above which helped me work out who the project was aimed at and what I would need to include in the website to satisfy the needs of the users. 
+The main goal of the website is to encourage parents to engage young children in netball from a young age. The website should be professional, so that the main messages are taken seriously, but also interactive, fun and engaging. I started the UX process by creating the User Stories above which helped me work out who the project was aimed at and what I would need to include in the website to satisfy the needs of the users. 
+
+### Scope plane:
+The key features of the website were developed based on the main aim of the website and user needs. Users should be able to do the following on the website:
+
+* Watch a video to learn some simple netball drills parents and children can do at home - I would embed a YouTube video in the HTML code for this feature
+* Take a multiple choice quiz to learn more about netball, including the benefits of playing netball - I would write this using JavaScript
+* Learn more about the Netball Superleague, by engaging with a map to view where teams are based and learn how to visit their website - I would use a Google Maps API for this feature.
+* Sign up to a newsletter, in order to keep interested parents informed about ways they can practise netball and engage their children in netball at home - I would use EmailJS for this feature. 
+
+### Structure plane:
+
+Once I had worked out which features I'd like to include, I began to think about the information architecture and the different interactions that could take place across the site, and the order they should be in. 
+
+I decided on five different sections: ‘About’, 'Skills' - this would include a YouTube video, 'Fun Facts' -  this would contain the quiz, 'Clubs' - this would contain the Google Maps API, and finally 'Newsletter' - this would contain the EmailJS feature.  
+I knew I wanted the user to read the About section first, as this would welcome the user and introduce them to the aims of the website. After this the user would move on to three sections based on ways to introduce more netball at home, finally finishing with the option to sign up to the newsletter. 
+I wanted the newsletter sign up form to come at the end, as ideally users would be interested in learning more after already trying out some of the activities above this section. 
+
+I decided that although there were 5 different sections, each section was quite small, comprising a key feature accompanied by some text. Therefore I decided to create a one page website. 
+I wanted to make it easy for users to navigate between the different sections should they wish, and therefore I decided it would be beneficial to create a fixed nav, as well as a Hamburger icon for smaller devices. 
+
+### Skeleton plane:
+
+I was at this stage ready to put together wireframes. I used Figma for these, creating wireframes for each page on desktop, tablet and mobile. 
+
+I considered using arrows or pointers to guide the user through the different sections but I felt this may actually be frustrating as the sections are only short and so the arrows would appear too quickly after one another. I decided that a 'Back To Top' button on the site would be useful, so the user could quickly move back to the top of the website if they had scrolled far down. They could also click on the nav to move to different areas if they wanted to on mobile. 
+On desktop the fixed nav would mean there was always the choice to move to a specific part of the site. 
+
+I decided using a box layout would be a good way to present the information in the different sections, allowing enough space between text, and any key features. 
+
+The wireframes can be viewed on [Figma](https://www.figma.com/file/6uPCcGmqEznG0EXndWxXOn/Milestone-Project-2?node-id=1%3A2)
+
+### Surface plane:
+
+I next moved on to the design work. 
+
+**Colours & Logo:** 
+Colours were an important choice as I knew they would help the website feel fun. 
+I used Canva to create the logo, and decided on a logo template that had writing accompanied by 
+3 circles, which could hint at balls. I therefore needed 3 colours for the circles in the logo. 
+ I wanted the colours to be bright, and was inspired by those used in the 'Bee @Home video' I was going to 
+use for the Skills section. I therefore decided to use similar colours in the logo and decided to
+ alternate these for the different headings too. I used a softer red colour, **#sjfhskjdfd**, a 
+ yellow **#djhfkjhdfjk** and a turquiose **#kjhghjghjg**. decided the yellow was a good background 
+ for the quiz, as it made the feature stand out with the word still clearly visible and legible. 
+
+ **Fonts:** I used Google Fonts to select the fonts for my project. I wanted to find two fonts that 
+ worked well together – one for the logo and headings, and another for the body text. Overall I wanted 
+ the design to look modern, whilst also related to netball somehow. I decided round, soft lettering
+ would be better suited to the site as opposed to anything sharp and angular. This seemed more friendly
+ and also worked well with the circles on the logo. 
+
+For the logo and headings, I decided on using Quicksand and then I used Open Sans for the body text which I thought complimented Quicksand well.
+
+**Images:** I needed a stock image for the hero image section, but it was quite difficult to find a stock image of children playing netball. Therefore I decided on 
+a stock image of a netball hoop. I took this from [Unsplash](https://www.unsplash.com) and the information for this image can be found below in the Credits section.
+
+**Layout:** I decided to use different background colours to signal to the user different areas of content. I used a soft 
+grey alternating with white for this. These colours also enabled the main brand colours in the headings to stand out, as well as the key features (video, quiz, map, newsletter sign-up).  
+ I thought the white and light grey helped to keep a feeling of space on each page too, allowing the images and text to stand out. I decided to give all buttons a dark grey shade with white text on all pages to help them stand out. The layout uses a lot of boxes, with straight edges used across the site.
+**QUIZ need to include the change somewhere**
+
+## Features
+The project consists of one single page, with five different sections, all of which can be accessed through the menu in the nav bar. 
+
+* Fixed navigation - allows the user to easily navigate to different sections of the page
+* 'Back to top' button - enables users to quickly move back to the top of the page 
+* 'About Us' - this is a text feature which outlines the aims of the website
+* 'Skills' - this section includes some introductory text accompanied with a YouTube video. This video is embedded in the HTML and is set to only play when clicked
+(as opposed to autoplay). This video features a skill challenge from England Netball's 'Bee @Home' - simple ball skills parents can watch and then do with their children at home. 
+* 'Quiz' - written in JavaScript, this multiple choice quiz contains 4 questions, with a score shown at the end once the user clicks on the button 'Check results'. When the user has received the results they
+can then click another button to 'Try Again' if they wish. 
+* 'Support Your Local Team' - This sections features Google Maps showing 10 different markers. Each marker represents the location of different Superleague teams. When the marker is clicked the 
+user is shown the city or town where the team is based, as well as a link to the team's website which opens up in a new page. This feature was created with a Google Maps API.
+* 'Sign up to our newsletter' - this feature has a sign up form to receive a monthly newsletter from the 'The Netball Hub'. Once the user has submitted their name and email address, an email is sent to 
+The Netball Hub informing them to add that particular user to the newsletter mailing list. This was created using EmailJS.
+**Should I create a modal message?**
+* Footer - the footer contains social media icons with links to social media pages that open in a new page. 
+
+### Features to consider implementing in the future:
+
+* The quiz could be developed much further in the future. There could be more questions, possibly being shown on slides. 
+* It would be good if once the newsletter form has been completed and submitted, an initial first newsletter is automatically sent to the user. 
+## Technologies Used
+
+**Languages, libraries, frameworks, editors and version control**
+
+* HTML5
+    * The language used to create and structure sections, paragraphs, headings, links, and add content to the website
+* CSS3
+    * The language used to style the HTML5 elements 
+* JavaScript
+    * The language used to create the multiple choice quiz, the Google Maps API feature, and send emails using EmailJS in the newsletter sign up feature. I also used this language for the Scroll to Top button and the Hamburger Icon on smaller screens
+* [Bootstrap framework](https://getbootstrap.com/) 
+    * I used Bootstrap's grid system in order to have a 'mobile'-first' approach
+* [JQuery] (https://jquery.com/)
+    * I used the JQuery library to add or remove the active class on the nav bar, so that users on desktop could clearly see which section they were viewing
+* [Gitpod](https://www.gitpod.io/)
+    * I used Gitpod's development environment to write the code for the website
+* [Git Version Control](https://git-scm.com/)
+    * I used Git for Version Control to record changes and updates to my files
+* [GitHub](https://github.com/)
+    * I used GitHub’s repository hosting service to host my deployed website as well as track previous versions of my code 
+
+**Other tools used:**
+
+* [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
+    * I used the Google Maps API to show users where the superleague netball teams are based, to encourage users to support and watch games
+* [EmailJS]()
+    *EmailJS allowed me to include a newsletter sign up form in the website, that submits the user's details in an email to The Netball Hub signing them up for the monthly newsletter. 
+* [Figma](https://www.figma.com/)
+    * I used Figma to create wireframes for my project for desktop, mobile and iPad. 
+* [Canva](https://www.canva.com/)
+    * I used Canva to create the logo 
+* [Unsplash](https://unsplash.com/)
+    * This was the source for one of the images in my project, please see the Media section below for more details on this. 
+* [Google Fonts](https://fonts.google.com/)
+    * I used the following Google fonts for the project: Quicksand and Open Sans 
+* [Favicon](https://favicon.io/)
+    * I used this website to create the favicon for the website 
+* [FontAwesome](https://fontawesome.com/)
+    * I also used three social media icons for Twitter, Instagram and Facebook
+
+
+*Note: I also found [Stack Overflow](https://stackoverflow.com/), [W3C Schools](https://www.w3schools.com/) and [Start Bootstrap](https://startbootstrap.com/) helpful resources throughout the project, as well as the Code Institute Slack Community.
 
 
 
 
 
-<!-- <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+
+<!--I decided that the user would be presented with simple choices on each page – namely: **Home** – view classes or view gallery, on the **Classes** page – submit an enquiry, on the **Gallery** page – send an email, on the **Contact** page – send a message on the contact form. 
+ 
+Because there will be quite a lot of imagery on the pages, I decided whilst doing the wireframes that there needed to be plenty of space on each page to avoid the pages feeling cluttered, leaving the user overwhelmed. 
+
+Whilst doing the wireframes, I also considered whether to include the ‘Image Gallery’ on the homepage. I knew I wanted the user to firstly consider visiting the upcoming classes, so this needed to appear as the first action on the homepage, however I decided the image gallery could actually persuade and encourage the user to view the upcoming classes too, so although this is secondary to the classes page, it is still important and I therefore decided to include this. 
+
+
+ <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
 Welcome chloelewisdev,
 
