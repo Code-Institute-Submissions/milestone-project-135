@@ -197,13 +197,18 @@ p {
     background: #ffcc00;
     padding: 10px; 20px; 10px; 20px;
     border-radius: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #ff4d4d;
     display: inline-block;
     text-align: center;
 }
 
 #after_submit {
     visibility: hidden;
+    padding: 20px;
 }
+
 
 .question {
     font-size: 18px;
@@ -216,7 +221,7 @@ p {
 
 @media screen and (min-width: 768px) {
     .quiz-style {
-        width: 700px;
+        width: 600px;
     }
 }
 
