@@ -31,7 +31,6 @@ p {
     font-family: "Open Sans", sans-serif;
 }
 
-
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/hero-image.jpg");
     width: 100%;
@@ -52,7 +51,6 @@ p {
 
 /*--------------------------------------------------------Section styles */
 
-
 .about-style {
     padding: 50px;
 }
@@ -62,7 +60,7 @@ p {
     background-color: #F4EEEE;
 }
 
-.facts-style {
+.quiz-style {
     padding: 50px;
 }
 
@@ -102,6 +100,10 @@ h2 {
     padding: 15px;
 }
 
+.quiz-intro-style {
+    padding-bottom: 20px;
+}
+
 .clubs-heading {
     color: #ff4d4d;
     font-weight: bold;
@@ -116,14 +118,41 @@ h2 {
 
 /*--------------------------------------------------------About section*/
 
-.center{
+.dot{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
 }
+
+.dot1 {
+  height: 25px;
+  width: 25px;
+  background-color: #ff4d4d;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  height: 25px;
+  width: 25px;
+  background-color: #17a2b8;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot3 {
+  height: 25px;
+  width: 25px;
+  background-color: #ffcc00;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 /*--------------------------------------------------------Skills section*/
 
+.skills-body {
+    padding-top: 10px;
+}
 .skills-text{
 
     padding-right: 20px;
@@ -132,9 +161,101 @@ h2 {
 
 @media screen and (min-width: 768px) {
     .skills-text {
-        padding-right: 40px;
+        padding-right: 50px;
         padding-left: 30px;
     }
+}
+
+/*-------------------------------------------------------- Quiz */
+.quiz-section-style{
+    padding: 10px;
+}
+
+#quiz {
+    margin-left: 10px;
+    background: #ffcc00;
+    padding: 10px; 20px; 10px; 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #ff4d4d;
+    display: inline-block;
+    text-align: center;
+}
+
+.quiz-style{
+    width: 90%;
+    padding: 40px;
+}
+
+.quizspan {
+    margin-bottom: 10px;
+}
+
+.question {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#after_submit {
+    visibility: hidden;
+    padding: 20px;
+}
+
+/*@media screen and (min-width: 768px) {
+    .quiz-style {
+        width: 600px;
+    }
+}*/
+
+
+
+/*-------------------------------------------------------- newsletter */
+
+
+.newsletter-form {
+    width: 500px;
+    padding: 20px;
+}
+
+.newsletter-btn {
+    padding: 10px;
+}
+
+/*-------------------------------------------------------- Map */
+
+#map {
+    height: 400px;
+}
+
+/*-------------------------------------------------------- Media Queries */
+
+@media screen and (max-width: 540px) {
+    .newsletter-form {
+        width: 260px;
+    }
+}
+
+/*-------------------------------------------------------- Scroll to top button */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: darkgrey;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
 
 /*--------------------------------------------------------Fact cards 
@@ -174,89 +295,3 @@ h2 {
     display: none;
 }
 */
-
-/*-------------------------------------------------------- newsletter */
-
-
-.newsletter-form {
-    width: 500px;
-    padding: 20px;
-}
-
-.newsletter-btn {
-    padding: 10px;
-}
-
-/*-------------------------------------------------------- Media queries */
-
-@media screen and (max-width: 540px) {
-    .newsletter-form {
-        width: 260px;
-    }
-}
-
-#map {
-    height: 400px;
-}
-
-/*-------------------------------------------------------- Scroll to top button */
-
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: darkgrey;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #555;
-}
-
-/*-------------------------------------------------------- Quiz */
-.quiz-section-style{
-    padding: 50px;
-}
-
-
-#quiz {
-    margin-left: 10px;
-    background: #ffcc00;
-    padding: 10px; 20px; 10px; 20px;
-    border-radius: 20px;
-    border-style: solid;
-    border-width: medium;
-    border-color: #ff4d4d;
-    display: inline-block;
-    text-align: center;
-}
-
-#after_submit {
-    visibility: hidden;
-    padding: 20px;
-}
-
-
-.question {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.quizspan {
-    padding: 10px;
-}
-
-@media screen and (min-width: 768px) {
-    .quiz-style {
-        width: 600px;
-    }
-}
-
