@@ -52,6 +52,7 @@ p {
 
 /*--------------------------------------------------------Section styles */
 
+
 .about-style {
     padding: 50px;
 }
@@ -75,6 +76,13 @@ p {
 }
 
 /*--------------------------------------------------------Heading styles */
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
 
 .about-heading {
     color: #ff4d4d;
@@ -106,12 +114,27 @@ p {
     padding: 15px;
 }
 
+/*--------------------------------------------------------About section*/
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
 /*--------------------------------------------------------Skills section*/
 
 .skills-text{
 
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .skills-text {
+        padding-right: 40px;
+        padding-left: 30px;
+    }
 }
 
 /*--------------------------------------------------------Fact cards 
