@@ -79,29 +79,40 @@ p {
 .about-heading {
     color: #ff4d4d;
     font-weight: bold;
+    padding: 15px;
 }
 
 .skills-heading {
     color: #17a2b8;
     font-weight: bold;
+    padding-bottom: 15px;
 }
 
 .quiz-heading {
     color: #ffcc00;
     font-weight: bold; 
-    padding: 10px;
+    padding: 15px;
 }
 
 .clubs-heading {
     color: #ff4d4d;
     font-weight: bold;
+    padding-bottom: 15px;
 }
 
 .newsletter-heading {
     color: #17a2b8;
     font-weight: bold;
+    padding: 15px;
 }
 
+/*--------------------------------------------------------Skills section*/
+
+.skills-text{
+
+    padding-right: 30px;
+    padding-left: 30px;
+}
 
 /*--------------------------------------------------------Fact cards 
 
@@ -191,6 +202,7 @@ p {
 .quiz-section-style{
     padding: 50px;
 }
+
 
 #quiz {
     margin-left: 10px;
