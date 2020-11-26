@@ -7,14 +7,26 @@ function sendMail(contactForm){
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            $("#myModal").modal("toggle");
+            $("#close-modal").click(function(){
             location.reload();
+            });
         },
         function(error) {
             console.log("FAILED", error);
-        }
+        },
     );
     return false;  // To block from loading a new page
 }
+
+// function check(){
+//   var name = document.getElementById('name').value;
+//   if(name!=''){
+//     setStatus("Success");
+//   }else{
+//     setStatus("Error");
+//   }
+// }
 
 //https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_alert
 //onclick="myFunction()"
