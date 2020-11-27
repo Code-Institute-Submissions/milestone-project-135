@@ -102,23 +102,28 @@
                     <div class="col-md-12 text-center quiz-section-style">
                             <div class="quiz-intro-style">
                             <h2 class="quiz-heading">Did you know?</h2>
+                            <div class="dots text-center">
+                            <span class="dot1"></span>
+                            <span class="dot2"></span>
+                            <span class="dot3"></span>
+                            </div>
                             <h3>Interesting and fun facts about netball to share with your little ones!</h3>
                             </div>
                         <form id="quiz" name="quiz" class="quiz-style">
                             <div class="quizspan">
                             <p class="question">1) In which year did did people first start playing netball in England?</p>
-                            <input type="radio" id="mc1" name="question1" value="2000">2000<br>
-                            <input type="radio" id="mc2" name="question1" value="1900">1900<br>
+                            <input type="radio" id="mc1" name="question1" value="2000" class="answer">2000<br>
+                            <input type="radio" id="mc2" name="question1" value="1900" class="answer">1900<br>
                             </div>
                             <div class="quizspan">
                             <p class="question">2) Who can play netball?</p>
-                            <input type="radio" id="mc3" name="question2" value="Girls">Girls<br>
-                            <input type="radio" id="mc4" name="question2" value="Girls & Boys">Girls & Boys<br>
+                            <input type="radio" id="mc3" name="question2" value="Girls" class="answer">Girls<br>
+                            <input type="radio" id="mc4" name="question2" value="Girls & Boys" class="answer">Girls & Boys<br>
                             </div>
                             <div class="quizspan">
                             <p class="question">3) Approximately how many people play netball across the world?</p>
-                            <input type="radio" id="mc5" name="question3" value="3 million">3 million<br>
-                            <input type="radio" id="mc6" name="question3" value="20 million">20 million<br>
+                            <input type="radio" id="mc5" name="question3" value="3 million" class="answer">3 million<br>
+                            <input type="radio" id="mc6" name="question3" value="20 million" class="answer">20 million<br>
                             </div>
                             <input type="button" id="button" value="Check Results" onclick= "check();">
                         </form>
@@ -130,12 +135,13 @@
                 </div>
             </div>
         </section>
-  <!--Clubs section-->
-        <section class="container-fluid clubs-style" id="clubs">
+  <!--Teams section-->
+        <section class="container-fluid teams-style" id="teams">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <h2 class="clubs-heading">Support Your Local Team</h2>
-                    <p>Text about superleague etc</p>
+                <div class="col-sm-12 col-md-6 teams-text">
+                    <h2 class="teams-heading">Support A Superleague Team</h2>
+                    <p class="teams-body text-justify">Did you know there are ten teams in the Vitality Superleague Netball team? A great way to boost chidren's interest in the sport is to watch it played professionally and see role models they can aspire to and support. Sky Sports actually shows many of the matches played in this league, so you can tune in and watch live netball together when the next season begins!</p>
+                    <p>You can view the locations of all the teams currently in the superleague on our handy map, if you live close by you could even get tickets to go and watch a game together.</p>
                 </div>
                 <div class="col-sm-12 col-md-6" id="map">
                 </div>
@@ -145,11 +151,6 @@
         <section class="container-fluid newsletter-style" id="newsletter">
             <div class="row text-center">
                 <div class="col-12">
-                        <div class="dots text-center">
-                        <span class="dot1"></span>
-                        <span class="dot2"></span>
-                        <span class="dot3"></span>
-                        </div>
                     <h2 class="newsletter-heading">Sign up to our newsletter!</h2>
                     <h3>Keep in the loop with our monthly newsletters, containing more drills and netball updates</h3>
                 </div>
@@ -162,17 +163,16 @@
                             <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name" required/>
                             <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                             <div class="text-center newsletter-btn">
-                            <input type="submit" value="Submit" class="btn btn-secondary center-block" data-target="#myModal">Send</button>
+                            <input type="submit" value="Submit" class="btn btn-secondary center-block" data-target="#myModal">
                             
                               <div class="modal fade" id="myModal" role="dialog">
                             <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Modal Header</h4>
+                                <h4 class="modal-title">The Netball Hub Newsletter</h4>
                                 </div>
                                 <div class="modal-body">
-                                <p>Some text in the modal.</p>
+                                <p>Thank you for signing up! You should shortly receive a confirmation e-mail from us in your inbox.</p>
                                 </div>
                                 <div class="modal-footer">
                                 <button id="close-modal" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -180,24 +180,7 @@
                             </div>
                             
                             </div>
-                        </div>
-
-                            <!--<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button id="close-modal" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                                </div-->
+                            </div>
                             </div>
                             </div>
                             </div>
@@ -206,6 +189,7 @@
                 </div>
             </div>
         </section>
+        
 <!--Footer-->
         <footer id="footer">
             <div class="container-fluid">
@@ -236,6 +220,23 @@
 </html>
 
 
+
+                            <!--<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button id="close-modal" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                </div-->
 <!--Fact cards - Bootstrap
         <section class="container-fluid facts-style" id="facts">
             <div class="row text-center">

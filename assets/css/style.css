@@ -11,6 +11,7 @@ body {
     background-color: white;
 }
 
+
 #footer {
     background-color: #f8f9fa;
     padding: 10px;
@@ -46,7 +47,13 @@ p {
   position: relative;
   text-align: center;
   color: white;
-  padding-top: 250px;
+  padding-top: 220px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-text  {
+    padding-top: 250px;
+    }
 }
 
 /*--------------------------------------------------------Section styles */
@@ -64,7 +71,7 @@ p {
     padding: 50px;
 }
 
-.clubs-style {
+.teams-style {
     padding: 50px;
     background-color: #F4EEEE;
 }
@@ -82,6 +89,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+h3 {
+    font-size: 1rem;
+}
+
 .about-heading {
     color: #ff4d4d;
     font-weight: bold;
@@ -97,14 +108,15 @@ h2 {
 .quiz-heading {
     color: #ffcc00;
     font-weight: bold; 
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .quiz-intro-style {
     padding-bottom: 20px;
 }
 
-.clubs-heading {
+.teams-heading {
     color: #ff4d4d;
     font-weight: bold;
     padding-bottom: 15px;
@@ -118,10 +130,11 @@ h2 {
 
 /*--------------------------------------------------------About section*/
 
-.dot{
+.dots{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 5px;
 }
 
 .dot1 {
@@ -193,13 +206,19 @@ h2 {
 }
 
 .question {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
+
 
 #after_submit {
     visibility: hidden;
     padding: 20px;
+}
+
+#number_correct {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /*@media screen and (min-width: 768px) {
@@ -209,6 +228,23 @@ h2 {
 }*/
 
 
+
+/*--------------------------------------------------------Teams section*/
+
+.teams-body {
+    padding-top: 10px;
+}
+.teams-text{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .teams-text {
+        padding-right: 50px;
+        padding-left: 30px;
+    }
+}
 
 /*-------------------------------------------------------- newsletter */
 
@@ -258,6 +294,25 @@ h2 {
   background-color: #555;
 }
 
+/*-------------------------------------------------------- Footer */
+
+.fa-facebook-f {
+    color: #ff4d4d;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.fa-instagram {
+    color: #17a2b8;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.fa-twitter {
+    color: #ffcc00;
+    font-size: 1.5rem;
+    padding: 10px;
+}
 /*--------------------------------------------------------Fact cards 
 
 .fact-card{
