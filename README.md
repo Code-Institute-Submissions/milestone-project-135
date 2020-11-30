@@ -2,14 +2,9 @@
 
 ## Code Institute - Milestone Project 2
 
-The Netball Hub is a fictional organisation that aims to inform parents with young children, in particular girls, about the benefits of playing netball from a young age. 
-The aim of the website is to educate parents about the lack of netball available to young girls, the benefits of netball, and then to provide different ways parents can begin to
-introduce this to their daughters if they are interested. 
+The Netball Hub is a fictional organisation that aims to inform parents with young children about the benefits of playing netball from a young age, and to provide different ways parents can engage their children in the sport.
 
-The idea came to me out of frustration from my own experience as a parent to a young girl. I have found football, rugby and cricket clubs are widely available for her to attend, but when I have
-taken her to these she has been the only girl. As a netball player myself I am keen to promote this sport to her, as well as team sports and ball games, but I have had to find my own ways of introducing netball to her, as there is nothing in my 
-local area for her to attend. Having done some research into this, there is very little netball provision at this age across the country, however I believe it would be a great benefit to 
-young children, boys and girls, if this was more widely available. I decided to create this website to promote awareness of the problem and provide other parents who may be in a similar situation with some ways to include netball in their family life if they so wish. 
+The idea for this website came to me as I am a keen netball player who wants to encourage my children to get involved in the sport from a young age. Often netball clubs are only available for children in their upper primary years, however I think even younger children would benefit from learning more about the sport. As a parent I have looked at ways to encourage my children’s interest in the sport, and I thought it might be useful to create a platform that shares these ideas for other people in a similar situation.  
 
 This was the second of four Milestone Projects that made up the Full Stack Web Development Program at The Code Institute. The main requirements were to make an interactive and responsive website with HTML5, CSS3 and JavaScript.
 
@@ -47,62 +42,70 @@ Click [here](https://chloelewisdev.github.io/milestone-project-2/) to view the w
 * [Acknowledgements](Acknowledgements)
 
 ## **User Experience**
-This section provides insight into the UX process, focusing on who The Netball Hub website is for, the main aims of the project and how the website can help users meet their needs.  
+This section provides insight into the UX process, focusing The Netball Hub website’s target audience, the main aims of the project and how the website can help users meet their needs.  
 
 ### Project goals:
 
-Educate, promote and engage 
-* To educate people about the lack of netball available for young girls in England
-* To learn about the benefits of playing netball
-* To equip parents with ways they can interest and engage their children in netball
-* To interest the user enough that they want to sign up to The Netball Hub newsletter to continue to be provided with more netball activities and information
+* To educate users about how young children from as young as 4 can benefit from playing netball 
+* To equip users with ways they can interest and engage young children in netball
+* To interest the user enough that they want to sign up to The Netball Hub newsletter, which will provide the user with more netball information and activities each month
 * To create a website that is visually appealing, and fully responsive on all devices and screen sizes 
-* To make The Netball Hub seem a reputable class provider, by creating a professional website
+* To make The Netball Hub seem a reputable company, by creating a professional website, whilst maintaining a fun appeal.
 
 ### User Stories
 
 **New users:** 
-* I am a user who is new to netball. I want to find out more about this sport and how I could introduce my children to it. 
-* I am a user who has played netball previously. I am aware that there is very little netball available for young children. I would like to encourage my children to play this sport, however I have no experience teaching it and so I am looking for this website to provide me with some activities and things I can do with my children based around netball. 
-* I am a user who wants to keep up to date on ways to provide netball to my children, I want to receive the latest netball news and more activities I can do with my children. 
+* I am a parent who wants to find ways of introducing netball to my young children. All local clubs in my area provide netball for children from around the age of 9, and so I’m looking to find some inspiration online instead. 
+* I am a user who knows nothing about netball, however I am searching for ways to keep my children active and healthy. I am interested to learn more about netball and why I would engage my children in netball activities. 
 
 **Returning user:**
-* I am a returning user who previously completed the 'Skills' video with my child. I'm keen to find out where I can access more of these as my children really enjoyed it. 
-* I am a returning user who has already completed the quiz, and followed the video provided, but I am now looking for further things to do and ways to find out more information about netball.
+* I am a returning user who previously completed the The Netball Hub’s 'Skills' video with my child. I'm keen to find out where I can access more of these as we really enjoyed it and I’d also like to do another netball-related activity with my child.
+* I am a returning user who has already completed the quiz, and followed the video provided, looked at the map and I am now looking for further things to do and ways to find out more information about netball. 
 
 **Business Owner:**
-* I am one of the owners of the business and want to see it succeed. I want to promote the issue around the lack of netball for young children, and equip parents with ways netball can introduced at home. I want parents to sign up to the newsletter to continue to promote the benefits of netball and ways young children can engage in the sport.
+* I am one of the owners of the business and want to see it succeed. I want to see more young children enjoying the many benefits of netball, and I want parents to feel confident enough to introduce it themselves to their children at home. I want parents to enjoy the content of the website, possibly sharing it with their children depending on their age, and also to sign up to the newsletter to continue to promote the benefits of netball and ways young children can engage in the sport. 
 
 ### Strategy plane: 
-The main goal of the website is to encourage parents to engage young children in netball from a young age. The website should be professional, so that the main messages are taken seriously, but also interactive, fun and engaging. I started the UX process by creating the User Stories above which helped me work out who the project was aimed at and what I would need to include in the website to satisfy the needs of the users. 
+The main goal of the website is to encourage parents to engage young children in netball from a young age. The website should be professional, so that the main messages are taken seriously, but also interactive, fun and engaging so that the content is appealing too. I started the UX process by creating the User Stories above which helped me work out who the project was aimed at and what I would need to include in the website to satisfy the needs of the users. 
 
 ### Scope plane:
 The key features of the website were developed based on the main aim of the website and user needs. Users should be able to do the following on the website:
 
-* Watch a video to learn some simple netball drills parents and children can do at home - I would embed a YouTube video in the HTML code for this feature
-* Take a multiple choice quiz to learn more about netball, including the benefits of playing netball - I would write this using JavaScript
-* Learn more about the Netball Superleague, by engaging with a map to view where teams are based and learn how to visit their website - I would use a Google Maps API for this feature.
+* Watch a video to learn some simple netball drills and ball skills parents and children can do at home – I would embed a YouTube video in the HTML code for this feature, plus a link to the England Netball website where more videos can be found.
+* Take a multiple-choice quiz to learn more about netball, including the benefits of playing netball as well as some fun facts about the sport - I would write this using JavaScript. I initially thought that having some cards which included a button that you could click on to reveal the answer for each question might work well, but then I thought it would be more interactive and engaging for the user if it was a quiz giving a score as this might mean users could take it in turn to have a go and compare scores. I decided the quiz should be fairly short to keep the user engaged on the rest of the website. 
+* Learn more about England’s Vitality Netball Superleague, by engaging with a map to view where the superleague teams are based, and also have the opportunity to click on a links on each map marker to visit the individual team websites - I would use a Google Maps API for this feature.
 * Sign up to a newsletter, in order to keep interested parents informed about ways they can practise netball and engage their children in netball at home - I would use EmailJS for this feature. 
 
 ### Structure plane:
 
 Once I had worked out which features I'd like to include, I began to think about the information architecture and the different interactions that could take place across the site, and the order they should be in. 
 
-I decided on five different sections: ‘About’, 'Skills' - this would include a YouTube video, 'Fun Facts' -  this would contain the quiz, 'Clubs' - this would contain the Google Maps API, and finally 'Newsletter' - this would contain the EmailJS feature.  
-I knew I wanted the user to read the About section first, as this would welcome the user and introduce them to the aims of the website. After this the user would move on to three sections based on ways to introduce more netball at home, finally finishing with the option to sign up to the newsletter. 
-I wanted the newsletter sign up form to come at the end, as ideally users would be interested in learning more after already trying out some of the activities above this section. 
+I decided on five different sections: 
+1)	‘About’ – this would be an introductory text section explaining to users the aims of the site
+2)	'Skills' – this section would include a YouTube video
+3)	'Fun Facts' – this section would contain the multiple-choice quiz
+4)	'Clubs' - this section would contain the Google Maps API
+5)	'Newsletter' - this section would contain the EmailJS feature. 
 
-I decided that although there were 5 different sections, each section was quite small, comprising a key feature accompanied by some text. Therefore I decided to create a one page website. 
-I wanted to make it easy for users to navigate between the different sections should they wish, and therefore I decided it would be beneficial to create a fixed nav, as well as a Hamburger icon for smaller devices. 
+The main interactions are therefore (in the following order) – watch video, play the quiz, engage with the map, sign up to the newsletter. 
+
+I knew I wanted the user to read the About section first, as this would welcome the user and introduce them to the aims of the website and the next sections. After this the user would move on to three sections based on ways to introduce more netball at home, finally finishing with the option to sign up to the newsletter. I decided the video was a good way to ease the user into the idea of netball as the drills to do at home are very simple and cost nothing. It also made sense for the map to come towards the end as people would need to be convinced that they were interested enough in netball to look more into watching professional teams. 
+
+Finally it was logical to me that the newsletter sign up form was the final section of the website, as ideally users would be keen to learn more after already trying out some of the activities in the sections above – the user must have bought into the idea behind the website to sign up for more information.  
+
+I decided that although there were 5 different sections, each section was quite small, comprising a key feature often accompanied by some text. Therefore I decided a one-page website would be suitable for this project rather than several short pages.  
+
+I wanted to make sure it would be easy for users to navigate between the different sections within the one page, and therefore I decided it would be essential to create a fixed nav, as well as a Hamburger icon for smaller devices so that the user could easily choose to move to a different section on the site if they wished. 
+
 
 ### Skeleton plane:
 
-I was at this stage ready to put together wireframes. I used Figma for these, creating wireframes for each page on desktop, tablet and mobile. 
+At this stage I was ready to put together wireframes. I used Figma for these, creating wireframes for the website on desktop, tablet and mobile. 
 
-I considered using arrows or pointers to guide the user through the different sections but I felt this may actually be frustrating as the sections are only short and so the arrows would appear too quickly after one another. I decided that a 'Back To Top' button on the site would be useful, so the user could quickly move back to the top of the website if they had scrolled far down. They could also click on the nav to move to different areas if they wanted to on mobile. 
-On desktop the fixed nav would mean there was always the choice to move to a specific part of the site. 
+I considered using arrows or pointers to guide the user through the different sections but I felt this may actually be frustrating as the sections are quite short and so the arrows would appear too quickly after one another. I decided that a 'Back To Top' button on the site would be useful, so the user could quickly move back to the top of the website if they had scrolled far down.
+On desktop the fixed nav would mean there was always the choice to move to a specific part of the site as mentioned above, and I made sure the hamburger icon was shown on tablet and mobile. 
 
-I decided using a box layout would be a good way to present the information in the different sections, allowing enough space between text, and any key features. 
+I decided using a box layout would be a good way to present the information in the different sections, allowing enough space between text, and any key features. I decided to alternate between full width containers, and then containers divided into two in order to spread the content out visually and also logically. 
 
 The wireframes can be viewed on [Figma](https://www.figma.com/file/6uPCcGmqEznG0EXndWxXOn/Milestone-Project-2?node-id=1%3A2)
 
@@ -111,52 +114,47 @@ The wireframes can be viewed on [Figma](https://www.figma.com/file/6uPCcGmqEznG0
 I next moved on to the design work. 
 
 **Colours & Logo:** 
-Colours were an important choice as I knew they would help the website feel fun. 
-I used Canva to create the logo, and decided on a logo template that had writing accompanied by 
-3 circles, which could hint at balls. I therefore needed 3 colours for the circles in the logo. 
- I wanted the colours to be bright, and was inspired by those used in the 'Bee @Home video' I was going to 
-use for the Skills section. I therefore decided to use similar colours in the logo and decided to
- alternate these for the different headings too. I used a softer red colour, **#sjfhskjdfd**, a 
- yellow **#djhfkjhdfjk** and a turquiose **#kjhghjghjg**. decided the yellow was a good background 
- for the quiz, as it made the feature stand out with the word still clearly visible and legible. 
+Colours were an important choice – it became apparent quite early on when I was doing research that it was quite difficult to find stock images of children playing netball. Therefore I knew the colours would be integral in giving the website a ‘fun’ appeal and making it look attractive to both adult and children (if adults decided to share parts of the site, such as the quiz, with the child for example). 
+ 
+I used Canva to create the logo, and decided on a logo template that had writing accompanied by 3 circles, which could hint at netball balls. I therefore needed 3 colours for the circles in the logo. 
 
- **Fonts:** I used Google Fonts to select the fonts for my project. I wanted to find two fonts that 
- worked well together – one for the logo and headings, and another for the body text. Overall I wanted 
- the design to look modern, whilst also related to netball somehow. I decided round, soft lettering
- would be better suited to the site as opposed to anything sharp and angular. This seemed more friendly
- and also worked well with the circles on the logo. 
+I wanted the colours to be bright, and was inspired by those used in the 'Bee @Home video' I had decided to use for the Skills section, from the England Netball website. I therefore decided to use similar colours in the logo and decided to
+ alternate these for the different headings too. I used a softer red colour, **#sjfhskjdfd**, a yellow **#djhfkjhdfjk** and a turquiose **#kjhghjghjg**. I also decided the yellow was a good background for the quiz, as it would make the feature stand out whilst ensuring the words would still be clearly visible and legible. 
+
+I also decided to use the circles to add some extra design to the ‘About’ section, which looked quite flat with only text and a white background. 
+
+ **Fonts:** I used Google Fonts to select the fonts for my project. I wanted to find two fonts that worked well together – one for the logo and headings, and another for the body text. Overall I wanted the design to look modern, whilst also related to netball somehow. I decided round, soft lettering would be better suited to the site as opposed to anything sharp and angular. This seemed more friendly
+and also worked well with the circles on the logo.
 
 For the logo and headings, I decided on using Quicksand and then I used Open Sans for the body text which I thought complimented Quicksand well.
 
-**Images:** I needed a stock image for the hero image section, but it was quite difficult to find a stock image of children playing netball. Therefore I decided on 
-a stock image of a netball hoop. I took this from [Unsplash](https://www.unsplash.com) and the information for this image can be found below in the Credits section.
+**Images:** I needed a stock image for the hero image section, but it was quite difficult to find a stock image of children playing netball as mentioned above. Therefore I decided on a stock image of a netball hoop with blue sky in the background. This gives the idea that netball isn’t just a sport that is played indoors in a sports hall, but also is a sport that can be enjoyed outside too – which is all part of the idea being communicated to parents – for example playing with a ball in the garden. It would have been even better if it was a shot of a netball, however I was unable to find a suitable stock image of this. I took the chosen stock image from [Unsplash](https://www.unsplash.com) and the information for this image can be found below in the Credits section.
 
 **Layout:** I decided to use different background colours to signal to the user different areas of content. I used a soft 
-grey alternating with white for this. These colours also enabled the main brand colours in the headings to stand out, as well as the key features (video, quiz, map, newsletter sign-up).  
- I thought the white and light grey helped to keep a feeling of space on each page too, allowing the images and text to stand out. I decided to give all buttons a dark grey shade with white text on all pages to help them stand out. The layout uses a lot of boxes, with straight edges used across the site.
-**QUIZ need to include the change somewhere**
+grey alternating with white for this. These colours also enabled the main brand colours in the headings and subtitles to stand out, as well as the key features (video, quiz, map, newsletter sign-up).  
+
+I thought the white and light grey helped to keep a feeling of space on each page too, meaning that areas containing text and another feature weren’t too busy. I decided to give all buttons….info about styling?
+
 
 ## Features
-The project consists of one single page, with five different sections, all of which can be accessed through the menu in the nav bar. 
+The project consists of one single page, with five different sections, all of which can be accessed through the menu in the fixed navigation bar at the top of the page. 
 
-* Fixed navigation - allows the user to easily navigate to different sections of the page
+* Fixed navigation - allows the user to easily navigate to different sections of the page. The nav bar also displays The Netball Hub’s logo in the top left corner. 
 * 'Back to top' button - enables users to quickly move back to the top of the page 
-* 'About Us' - this is a text feature which outlines the aims of the website
-* 'Skills' - this section includes some introductory text accompanied with a YouTube video. This video is embedded in the HTML and is set to only play when clicked
-(as opposed to autoplay). This video features a skill challenge from England Netball's 'Bee @Home' - simple ball skills parents can watch and then do with their children at home. 
-* 'Quiz' - written in JavaScript, this multiple choice quiz contains 4 questions, with a score shown at the end once the user clicks on the button 'Check results'. When the user has received the results they
-can then click another button to 'Try Again' if they wish. 
-* 'Support Your Local Team' - This sections features Google Maps showing 10 different markers. Each marker represents the location of different Superleague teams. When the marker is clicked the 
-user is shown the city or town where the team is based, as well as a link to the team's website which opens up in a new page. This feature was created with a Google Maps API.
-* 'Sign up to our newsletter' - this feature has a sign up form to receive a monthly newsletter from the 'The Netball Hub'. Once the user has submitted their name and email address, an email is sent to 
-The Netball Hub informing them to add that particular user to the newsletter mailing list. This was created using EmailJS.
-**Should I create a modal message?**
-* Footer - the footer contains social media icons with links to social media pages that open in a new page. 
+* 'About Us' - this is a text section which introduces the user to The Netball Hub and outlines the aims of the website
+* 'Skills' - this section includes some introductory text accompanied with a YouTube video from England Netball’s Bee@Home programme - featuring a skills challenge and simple ball skills parents can watch and then do with their children at home. This video is embedded in the HTML and is set to only play when clicked therefore the user has control over playing and stopping/pausing the video. 
+* 'Netball Quiz' - this multiple choice quiz contains 4 questions, each with two answers of which the user needs to select one. For each correct answer the user gains one point, and the score is shown at the end once the user clicks on the button 'Check results'. When the user has received their score, they can then click another button to 'Try Again', which refreshes the quiz and gives the user change to start the quiz again if they wish. This quiz is written in JavaScript.
+* 'Netball Superleague’ - This sections features a map showing 10 different Google Map Markers. Each marker represents the location of different Superleague teams across England, Wales and Scotland. When the user clicks the marker, the name of the team is shown as well as a link to the team's website which opens up in a new webpage if clicked. This feature was created with a Google Maps API.
+* 'Sign up to our newsletter' - this feature has a sign-up form where the user inputs their First Name, Last Name and Email into a form. They then click on the ‘Sign Up’ button, which validates the form (if the user hasn’t added information to each field they are shown an alert on the form showing them an area they still need to complete), and then once all required fields have been completed (all the fields), the user is then shown a modal message thanking them for signing up. The user can then click the ‘close’ button in the modal message, the page refreshes and the form is submitted. An email is then sent to The Netball Hub (as this is fictional I used the email address chloelewiswebdev@gmail.com) with information about the user (first name, last name and e-mail address) so that the company can add them to the newsletter mailing list. And an auto-reply email is also sent to the user, thanking them for the sign-up and informing them that they will receive a newsletter from The Netball Hub in their inbox shortly. This feature was created using EmailJS.
+* Footer - the footer contains social media icons with links to social media pages that open up in a new page. 
 
 ### Features to consider implementing in the future:
 
-* The quiz could be developed much further in the future. There could be more questions, possibly being shown on slides. 
-* It would be good if once the newsletter form has been completed and submitted, an initial first newsletter is automatically sent to the user. 
+* The quiz could be developed much further in the future. There could be more questions, with each question possibly being shown on a different slide. Also possibly adding a feature such as countdown timer to the quiz could make it a more fun experience for the user. It might also be beneficial for the user if the quiz was testing the new knowledge the user has learnt on the website, but the website may need more content before this could be worth doing. 
+* It would be good if once the newsletter sign-up form has been completed and submitted, an initial first newsletter is automatically sent to the user. However as this company is fictional, this was not possible at this time.  
+* There is only one image used currently on the site, however it would be good to look at areas where more could be added in the future, possibly by creating a rotating hero image section, or including images from the superleague netball league under the map. 
+
+
 ## Technologies Used
 
 **Languages, libraries, frameworks, editors and version control**
@@ -166,7 +164,7 @@ The Netball Hub informing them to add that particular user to the newsletter mai
 * CSS3
     * The language used to style the HTML5 elements 
 * JavaScript
-    * The language used to create the multiple choice quiz, the Google Maps API feature, and send emails using EmailJS in the newsletter sign up feature. I also used this language for the Scroll to Top button and the Hamburger Icon on smaller screens
+    * The language used to create the multiple-choice quiz, the Google Maps API feature, and send emails using EmailJS in the newsletter sign up feature. I also used this language for the Scroll to Top button and the Hamburger Icon that sits in the nav on smaller screens
 * [Bootstrap framework](https://getbootstrap.com/) 
     * I used Bootstrap's grid system in order to have a 'mobile'-first' approach
 * [JQuery] (https://jquery.com/)
@@ -181,15 +179,15 @@ The Netball Hub informing them to add that particular user to the newsletter mai
 **Other tools used:**
 
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
-    * I used the Google Maps API to show users where the superleague netball teams are based, to encourage users to support and watch games
+    * I used the Google Maps API to add a Google Maps feature showing users where the superleague netball teams are based across England, Wales and Scotland with ten  different map markers which can be clicked on to give the user more team information. 
 * [EmailJS]()
-    *EmailJS allowed me to include a newsletter sign up form in the website, that submits the user's details in an email to The Netball Hub signing them up for the monthly newsletter. 
+    *EmailJS allowed me to include a newsletter sign up form in the website, that submits the user's details in an email to The Netball Hub, as well as sending the user a thank you e-mail confirming they have been signed up to the monthly newsletter. 
 * [Figma](https://www.figma.com/)
     * I used Figma to create wireframes for my project for desktop, mobile and iPad. 
 * [Canva](https://www.canva.com/)
-    * I used Canva to create the logo 
+    * I used Canva to create The Netball Hub’s logo 
 * [Unsplash](https://unsplash.com/)
-    * This was the source for one of the images in my project, please see the Media section below for more details on this. 
+    * This was the source for the hero image in my project, please see the Media section below for more details on this. 
 * [Google Fonts](https://fonts.google.com/)
     * I used the following Google fonts for the project: Quicksand and Open Sans 
 * [Favicon](https://favicon.io/)
@@ -197,31 +195,32 @@ The Netball Hub informing them to add that particular user to the newsletter mai
 * [FontAwesome](https://fontawesome.com/)
     * I also used three social media icons for Twitter, Instagram and Facebook
 
-
-*Note: I also found [Stack Overflow](https://stackoverflow.com/), [W3C Schools](https://www.w3schools.com/) and [Start Bootstrap](https://startbootstrap.com/) helpful resources throughout the project, as well as the Code Institute Slack Community.
+*Note: I also found [Stack Overflow](https://stackoverflow.com/), [W3C Schools](https://www.w3schools.com/) and [Start Bootstrap](https://startbootstrap.com/) helpful resources throughout the project, as well as the Code Institute Slack Community.  Add some more here. 
 
 ## Testing:
 
 ### Testing User Stories:
 
-* New user - *I am a parent with young children and want to find ways of introducing netball to my children as I have been unable to find any local clubs providing netball for their age.* 
-This user can read more about why netball is beneficial for young children in the 'About Us' section right at the beginning of the website. This probably reassures the user they are in the right 
-place, and they can then visit the 'Skills' section to watch a YouTube video and pick up some skills they can try with their children. They could engage their children in netball straight alway
-by involving them in the short quiz, and they can also look on the map to view the location of superleague teams they could start to support and watch if they live close enough. If they don't live
-close enough, they could visit the team websites and learn more about them to stimulate wider interest. 
+* New user - *I am a parent who wants to find ways of introducing netball to my young children. All local clubs in my area provide netball for children from around the age of 9, and so I’m looking to find some inspiration online instead.* 
 
-* Returning user - *I am a returning user who previously completed the 'Skills' video with my child. I'm keen to find out where I can access more of these as my children really enjoyed it.*
-This user can return to the 'Skills' section, where they will find a link to the England netball web page containing more skills that can be taught at home. 
+This user can click on the short YouTube video in the ‘Skills’ section, to learn about some ball drills and skills they can do with their children at home – for free and just using a ball. The user could do the short multiple-choice quiz in the ‘Quiz’ section with their children to see how much they know and learn some fun facts about netball. The user can also look on the map to find out if there are any superleague teams near to where they live. They can click on a marker and if the location is suitable they can then follow a link to a team’s website and see if they might be interested in buying tickets to watch a live match if so, or see if any upcoming matches are being shown on Sky Sports which the parent could watch with their children to inspire them. Finally, the user can complete the form at the bottom of the website to sign up to The Netball Hub’s monthly newsletter where they will receive more activities they can do with their children each month. 
 
-* Returning user *I am a returning user who has already completed the quiz, and followed the video provided, but I am now looking for further things to do and ways to find out more information about netball.* 
-This user will benefit from going to the newsletter sign up feature which is at the bottom of the page. They can access this by either scrolling down the page, or clicking the 'Newsletter' link in the navigation menu. 
+*New user - *I am a user who knows nothing about netball, however I am searching for ways to keep my children active and healthy. I am interested to learn more about netball and why I would engage my children in netball activities.*
 
-* Project stakeholder - *I am one of the owners of the business and want to see it succeed. I want to promote the issue around the lack of netball for young children, and equip parents with ways netball can introduced at home from a young age. I want parents to sign up to the newsletter to continue to promote the benefits of netball and ways young children can engage in the sport.*
-The stakeholders need the users to be informed by the website, but also engaged and inspired to promote netball to their children. The 'About Us' section at the very beginning of the webiste is very clear - the text is very visible
-and the user is not distracted by any other features at this point. Therefore the issue is communicated at this point, but this then moves straight into ways the issue can be helped. Parents can learn how to do netball skills with their children, 
-take a quiz to help educate their children about netball, and also look at an interactive map to learn about superleague teams. The interactive elements on the website along with the colours help to make the website appealing and fun. 
+The ‘About Us’ section at the beginning of the website explains the benefits of young children playing netball. The video is very simple and for beginners, so this user would be able to watch the video at the start of the website after reading about the benefits, and straight away learn how they could introduce it to their children easily and for free. If they enjoy the video, they can follow a link in the text accompanying the video which takes them to England Netball’s website showing more videos. This user may also wish to sign up to the newsletter, to receive more netball activities they can do with their children in the future. 
 
-Something about superleague?
+*Returning user - *I am a returning user who previously completed The Netball Hub’s 'Skills' video with my child. I'm keen to find out where I can access more of these as we really enjoyed it, and I’d also like to do a different netball-related activity with my child.* 
+
+This user can click on a link at the bottom of the text in the ‘Skills’ section which takes them to a page on the England Netball’s website where further videos are available containing more ball skills and challenges that can be done at home. Underneath this section, the user arrives at the quiz section (the user could also select ‘Quiz’ from the navigation menu too). The user could complete The Netball Hub’s multiple-choice quiz together with their child. There are 4 questions each with 2 multiple choice answers – the questions are quite straightforward and aim to provide some fun and interesting facts about netball that might interest both the parent and also the child. 
+
+
+* Project stakeholder - *I am one of the owners of the business and want to see it succeed. I want parents to feel confident enough to introduce netball to their children themselves at home, so that more young children can enjoy the benefits of the sport. I want parents to enjoy the content of the website, possibly sharing parts of it with their children depending on their age, and also to sign up to the newsletter to continue to promote the benefits of netball and ways young children can engage in the sport.*
+
+The stakeholder would be happy to see the benefits of the sport promoted at the very beginning of the website in the ‘About Us’ section. 
+The netball-related features included in the website, are at a level that any parent, with or without prior netball knowledge could use and engage in them. The video at the beginning for example is very simple, rather than a lesson on court positions and team tactics, the video shows a few skills that can be done at home with any ball. The quiz only has 4 questions, and is not at a dauting level about the detail of the sport, but rather some more general interest facts such as where the sport is played and by who. Finally the map is very clear and contains just ten markers, so that the parent can easily see at a glance where the superleague teams are based, or if they want to know more they can click on the links in the markers which takes the user to the team’s web page. The newsletter form is also a simple sign up form with only 3 required fields. 
+
+Therefore overall the stakeholder would be happy that the benefits of netball for young children are promoted, the content provided should engage the user and enable them to feel confident enough to introduce netball to their children if they wish, and finally the user can easily sign up to a monthly newsletter to continue to receive more netball-related activities and information on netball for young children.  Finally, the interactive elements on the website along with the colours help to make the website appealing and fun.
+ 
 
 ### Validating HTML, CSS and JavaScript code
 
@@ -238,8 +237,14 @@ Newsletter
 Hamburger icon
 
 **GENERAL (Site Testing on live page)**
-navigation and other sections
-
+Navigation
+Links 
+Video
+Quiz
+Maps 
+Newsletter
+Footer
+and other sections
 
 ### Testing on different browsers:
 I manually tested the website on the following browsers:
@@ -257,14 +262,30 @@ I manually tested the website by using Google Developer Tools to check each indi
 This project was developed in GitPod and deployed to the hosting platform [GitHub Pages](https://chloelewisdev.github.io/milestone-project-1/index.html).
 
 I took the following steps to deploy the Fray + Anchor through to GitHub Pages:
--	Loaded GitHub in Chrome web browser and signed in
--	Clicked on [My Repositories](https://github.com/chloelewisdev?tab=repositories)
--	Navigated to [milestone-project-2](https://github.com/chloelewisdev/milestone-project-2)
--	Selected [Settings](https://github.com/chloelewisdev/milestone-project-2/settings)
--	Scrolled down to the GitHub Pages area of the page
--	Selected ‘Master Branch’ from the ‘Source’ dropdown menu
--	Confirmed my selection
--	The Netball Hub is now live on [GitHub Pages](https://chloelewisdev.github.io/milestone-project-2)  
+-   Loaded GitHub in Chrome web browser and signed in
+-   Clicked on [My Repositories](https://github.com/chloelewisdev?tab=repositories)
+-   Navigated to [milestone-project-2](https://github.com/chloelewisdev/milestone-project-2)
+-   Selected [Settings](https://github.com/chloelewisdev/milestone-project-2/settings)
+-   Scrolled down to the GitHub Pages area of the page
+-   Selected ‘Master Branch’ from the ‘Source’ dropdown menu
+-   Confirmed my selection
+-   The Netball Hub is now live on [GitHub Pages](https://chloelewisdev.github.io/milestone-project-2)  
+
+Deploying with Google Maps API
+For this project, I also used a Google Maps API. I integrated this to my website in the following way:
+1.	I navigated to Gooogle's Getting started with Google Maps Platform, where I set up an account my account.
+2.	From there I decided to use the 'Maps JavaScript API' and an API key with these steps on here.
+3.	Once I had set up my Google Maps feature in my project as described here, I restricted the key's access to only my project's URL to limit its use for no other purposes.
+The above process can be copied if you would like to deploy a project with the Google Maps API feature.
+Deploying with EmailJS
+I used EmailJS to automatically send me an email each time a user submits the Newsletter form. This feature can be implemented as follows:
+1.	I created an account with EmailJS and navigated to this page
+2.	I followed the steps from the tutorial, creating a template and adding the EmailJS javascript library to my project.
+3.	I chose to stay with a free account, which limits my monthly quota to 200 emails per month.
+The above process can be copied if you would like to deploy a project with the EmailJS service.
+
+
+
 
 To deploy your own version of the website:
 
@@ -303,56 +324,3 @@ Thanks to the Code Institute Slack Community.
 
 Thanks also to my family for taking the time to look over the website and their feedback. 
 
-
-<!--I decided that the user would be presented with simple choices on each page – namely: **Home** – view classes or view gallery, on the **Classes** page – submit an enquiry, on the **Gallery** page – send an email, on the **Contact** page – send a message on the contact form. 
- 
-Because there will be quite a lot of imagery on the pages, I decided whilst doing the wireframes that there needed to be plenty of space on each page to avoid the pages feeling cluttered, leaving the user overwhelmed. 
-
-Whilst doing the wireframes, I also considered whether to include the ‘Image Gallery’ on the homepage. I knew I wanted the user to firstly consider visiting the upcoming classes, so this needed to appear as the first action on the homepage, however I decided the image gallery could actually persuade and encourage the user to view the upcoming classes too, so although this is secondary to the classes page, it is still important and I therefore decided to include this. 
-
-
- <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
-
-Welcome chloelewisdev,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding! -->
