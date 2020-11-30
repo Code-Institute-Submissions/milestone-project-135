@@ -67,7 +67,7 @@ p {
     background-color: #F4EEEE;
 }
 
-.quiz-style {
+.quiz-section-style {
     padding: 50px;
 }
 
@@ -87,6 +87,12 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        text-align: center;
+    }
 }
 
 h3 {
@@ -180,9 +186,7 @@ h3 {
 }
 
 /*-------------------------------------------------------- Quiz */
-.quiz-section-style{
-    padding: 10px;
-}
+
 
 #quiz {
     margin-left: 10px;
@@ -199,6 +203,10 @@ h3 {
 .quiz-style{
     width: 90%;
     padding: 40px;
+}
+
+.quiz-intro-style {
+    padding: 20px;
 }
 
 .quizspan {
@@ -220,12 +228,6 @@ h3 {
     font-size: 20px;
     font-weight: bold;
 }
-
-/*@media screen and (min-width: 768px) {
-    .quiz-style {
-        width: 600px;
-    }
-}*/
 
 
 
@@ -254,8 +256,15 @@ h3 {
     padding: 20px;
 }
 
+@media screen and (max-width: 540px) {
+    .newsletter-form {
+        width: 260px;
+    }
+}
+
 .newsletter-btn {
     padding: 10px;
+
 }
 
 /*-------------------------------------------------------- Map */
@@ -264,13 +273,6 @@ h3 {
     height: 400px;
 }
 
-/*-------------------------------------------------------- Media Queries */
-
-@media screen and (max-width: 540px) {
-    .newsletter-form {
-        width: 260px;
-    }
-}
 
 /*-------------------------------------------------------- Scroll to top button */
 
@@ -313,40 +315,3 @@ h3 {
     font-size: 1.5rem;
     padding: 10px;
 }
-/*--------------------------------------------------------Fact cards 
-
-.fact-card{
-    padding: 30px;
-}
-
-.card-title-1 {
-    color: #ff4d4d;
-}
-
-.card-title-2 {
-    color: #17a2b8;
-}
-
-.card-title-3 {
-    color:#ffcc00;
-}
-
-.card-title-4 {
-    color:#ff4d4d;
-}
-#card-1 {
-    display: none;
-}
-
-#card-2 {
-    display: none;
-}
-
-#card-3 {
-    display: none;
-}
-
-#card-4 {
-    display: none;
-}
-*/
