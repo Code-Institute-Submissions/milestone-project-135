@@ -169,7 +169,7 @@ The project consists of one single page, with five different sections, all of wh
     * The language used to create the multiple-choice quiz, the Google Maps API feature, and send emails using EmailJS in the newsletter sign up feature. I also used this language for the Scroll to Top button and the Hamburger Icon that sits in the nav on smaller screens
 * [Bootstrap framework](https://getbootstrap.com/) 
     * I used Bootstrap's grid system in order to have a 'mobile'-first' approach
-* [JQuery] (https://jquery.com/)
+* [JQuery](https://jquery.com/)
     * I used the JQuery library to add or remove the active class on the nav bar, so that users on desktop could clearly see which section they were viewing
 * [Gitpod](https://www.gitpod.io/)
     * I used Gitpod's development environment to write the code for the website
@@ -273,21 +273,18 @@ I took the following steps to deploy the Fray + Anchor through to GitHub Pages:
 -   Confirmed my selection
 -   The Netball Hub is now live on [GitHub Pages](https://chloelewisdev.github.io/milestone-project-2)  
 
-Deploying with Google Maps API
+**Deploying with Google Maps API**
 For this project, I also used a Google Maps API. I integrated this to my website in the following way:
 1.	I navigated to Gooogle's Getting started with Google Maps Platform, where I set up an account my account.
 2.	From there I decided to use the 'Maps JavaScript API' and an API key with these steps on here.
 3.	Once I had set up my Google Maps feature in my project as described here, I restricted the key's access to only my project's URL to limit its use for no other purposes.
 The above process can be copied if you would like to deploy a project with the Google Maps API feature.
-Deploying with EmailJS
+**Deploying with EmailJS**
 I used EmailJS to automatically send me an email each time a user submits the Newsletter form. This feature can be implemented as follows:
 1.	I created an account with EmailJS and navigated to this page
 2.	I followed the steps from the tutorial, creating a template and adding the EmailJS javascript library to my project.
 3.	I chose to stay with a free account, which limits my monthly quota to 200 emails per month.
 The above process can be copied if you would like to deploy a project with the EmailJS service.
-
-
-
 
 To deploy your own version of the website:
 
@@ -313,8 +310,6 @@ The benefits of hosting your website on GitHub pages is that any pushed changes 
 The content for this website is fictional and written by myself. The images are almost all my own, except for one which was taken from Unsplash and is referenced below. 
 
 I found the Code Institute Slack Community's Peer Code Review channel really useful to look through when considering the content for this project. 
-
-Thank you to my mentor Seun Owonikoko for suggesting that I look at the following README.md file by fellow Code Institute student Miranda https://github.com/mkthewlis/Milestone-Project-2/blob/master/README.md when doing my own README.md file.
 
 ### Media
 * The stock image used for the hero image can be found at the following link: [Unsplash](https://unsplash.com/photos/2JOxWQoxGtU)
