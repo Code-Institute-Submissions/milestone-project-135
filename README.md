@@ -14,7 +14,7 @@ Click [here](https://chloelewisdev.github.io/milestone-project-2/) to view the w
 
 ## Table of Contents:
 
-*[User Experience](#User-Experience)
+* [User Experience](#User-Experience)
     * [Project goals](#Project-goals)
     * [User Stories](#User-Stories)
     * [Strategy Plane](#Strategy-Plane)
