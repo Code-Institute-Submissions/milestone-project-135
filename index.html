@@ -7,8 +7,8 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
       <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
       <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQJM7xwopfVBhffjQq9QEcqseD-xzwuF0&callback=initMap"></script>      
-      <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
-      <script type="text/javascript">
+      <script src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+      <script>
          (function() {
              emailjs.init("user_ecpF8xiTvTqQCS0MVWPJQ");
          })();
@@ -103,7 +103,7 @@
       </section>
       <!--Quiz section-->
       <section>
-         <div class="container" id="quiz-section" class="quiz-section-style">
+         <div class="container quiz-section-style" id="quiz-section">
             <div class="row">
                <div class="col-md-12 text-center">
                   <div class="quiz-intro-style">
@@ -131,7 +131,7 @@
                         <input type="radio" id="mc5" name="question3" value="3 million" class="answer">3 million<br>
                         <input type="radio" id="mc6" name="question3" value="20 million" class="answer">20 million<br>
                      </div>
-                     <input type="button" id="button" value="Results" onclick= "check();">
+                     <input type="button" id="button" value="Results" onclick= "check()">
                   </form>
                   <div id="after_submit">
                      <p id="number_correct"></p>

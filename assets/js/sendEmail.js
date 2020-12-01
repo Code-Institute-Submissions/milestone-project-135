@@ -1,3 +1,5 @@
+/*jshint esversion: 8 */ 
+
 function sendMail(contactForm){
     emailjs.send("gmail", "newsletter", {
         "from_firstname": contactForm.firstname.value,

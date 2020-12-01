@@ -11,7 +11,6 @@ body {
     background-color: white;
 }
 
-
 #footer {
     background-color: #f8f9fa;
     padding: 10px;
@@ -68,7 +67,7 @@ p {
 }
 
 .quiz-section-style {
-    padding: 50px;
+    padding: 40px;
 }
 
 .teams-style {
@@ -114,8 +113,7 @@ h3 {
 .quiz-heading {
     color: #ffcc00;
     font-weight: bold; 
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .quiz-intro-style {
@@ -187,11 +185,11 @@ h3 {
 
 /*-------------------------------------------------------- Quiz */
 
-
 #quiz {
     margin-left: 10px;
     background: #ffcc00;
-    padding: 10px; 20px; 10px; 20px;
+    padding-top: 10px; 
+    padding-bottom: 20px;
     border-radius: 20px;
     border-style: solid;
     border-width: medium;
@@ -229,8 +227,6 @@ h3 {
     font-weight: bold;
 }
 
-
-
 /*--------------------------------------------------------Teams section*/
 
 .teams-body {
@@ -249,7 +245,6 @@ h3 {
 }
 
 /*-------------------------------------------------------- newsletter */
-
 
 .newsletter-form {
     width: 500px;
@@ -272,7 +267,6 @@ h3 {
 #map {
     height: 400px;
 }
-
 
 /*-------------------------------------------------------- Scroll to top button */
 
