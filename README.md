@@ -2,9 +2,11 @@
 
 ## Code Institute - Milestone Project 2
 
+![The Netball Hub responsive website mockup](https://github.com/chloelewisdev/milestone-project-2/blob/master/assets/images/mockupscreenshot.png)
+
 The Netball Hub is a fictional organisation that aims to inform parents with young children about the benefits of playing netball from a young age, and to provide different ways parents can engage their children in the sport.
 
-The idea for this website came to me as I am a keen netball player who wants to encourage my children to get involved in the sport from a young age. Often netball clubs are only available for children in their upper primary years, however I think even younger children would benefit from learning more about and engaging in the sport. As a parent I have looked at ways to encourage my children’s interest in the sport, and I thought it might be useful to create a platform that shares these ideas for other people in a similar situation.  
+The idea for this website came to me as I am a keen netball player who wants to encourage my children to get involved in the sport from a young age. Often netball clubs are only available for children in their upper primary years, however I think even younger children would benefit from learning more about the sport. As a parent I have looked at ways to encourage my children’s interest in the sport, and I thought it might be useful to create a platform that shares these ideas for other people in a similar situation.  
 
 This was the second of four Milestone Projects that made up the Full Stack Web Development Program at The Code Institute. The main requirements were to make an interactive and responsive website with HTML5, CSS3 and JavaScript.
 
@@ -12,7 +14,7 @@ Click [here](https://chloelewisdev.github.io/milestone-project-2/) to view the w
 
 ## Table of Contents:
 
-### [User Experience](#User-Experience)
+*[User Experience](#User-Experience)
     * [Project goals](#Project-goals)
     * [User Stories](#User-Stories)
     * [Strategy Plane](#Strategy-Plane)
@@ -21,25 +23,25 @@ Click [here](https://chloelewisdev.github.io/milestone-project-2/) to view the w
     * [Skeleton Plane](#Skeleton-Plane)
     * [Surface Plane](#Surface-Plane)
 
-### [Features](#Features)
+* [Features](#Features)
     * [Features to consider implementing in the future](#Features-to-consider-implementing-in-the-future)
 
-### [Technologies Used](#Technologies-Used)
+* [Technologies Used](#Technologies-Used)
 
-### [Testing](#Testing)
+* [Testing](#Testing)
     * [Testing User Stories](#Testing-User-Stories)
     * [Validating The Code](#Validating-the-code)
     * [Testing on different browsers](#Testing-on-different-browsers)
     * [Testing responsiveness on multiple devices and screen sizes](#Testing-responsiveness-on-multiple-devices-and-screen-sizes)
     * [Issues found](#Issues-found)
 
-### [Deployment](#Deployment)
+* [Deployment](#Deployment)
 
-### [Credits](#Credits)
+* [Credits](#Credits)
     * [Content](#Content)
     * [Media](#Media)
 
-### [Acknowledgements](Acknowledgements)
+* [Acknowledgements](Acknowledgements)
 
 ## **User Experience**
 This section provides insight into the UX process, focusing The Netball Hub website’s target audience, the main aims of the project and how the website can help users meet their needs.  
