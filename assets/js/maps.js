@@ -1,5 +1,6 @@
 /*jshint multistr: true */
 function initMap() {
+//The location of the netball superleague teams and content to be added to each marker    
     var locations = [{
             info: '<strong>Manchester Thunder</strong>\
             <a href="https://www.manchesterthunder.co.uk" target="_blank">View team website</a>',
@@ -62,6 +63,7 @@ function initMap() {
         }
     ];
 
+//Set the map to center of Great Britain to enable all markers to show
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 5.5,
         center: new google.maps.LatLng(54.403465, -1.732618),
@@ -72,12 +74,14 @@ function initMap() {
 
     var marker, i;
 
+//Creates a marker for each location
     for (i = 0; i < locations.length; i++) {
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i].lat, locations[i].long, i),
             map: map,
         });
 
+//Opens the marker info window about each specific team when the marker is clicked
         google.maps.event.addListener(
             marker,
             'click',
