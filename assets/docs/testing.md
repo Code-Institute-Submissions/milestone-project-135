@@ -7,12 +7,12 @@ The user can navigate to the ‘Quiz’ section (by scrolling down or selecting 
 
 The user can also navigate to the ‘Superleague Teams’ section via the fixed navigation menu or by scrolling down, where they can learn about the locations of the superleague teams by looking at the map and the markers. Here the user can click on a marker to check individual team information and click on a link to visit the relevant team website, where the user can view upcoming matches they could watch with their children if close to their location, or see if any upcoming matches are being shown on Sky Sports. 
 
-*New user - *I am a user who knows nothing about netball, however I am searching for ways to keep my children active and healthy. I am interested to learn more about netball and why I would engage my children in netball activities.*
+* New user - *I am a user who knows nothing about netball, however I am searching for ways to keep my children active and healthy. I am interested to learn more about netball and why I would engage my children in netball activities.*
 
 The user arrives at the ‘About Us’ section at the beginning of the website which includes a text section that explains the benefits of young children playing netball. 
 As well as reading about how netball is good way for children to keep active and healthy, the user can then click to play an embedded Youtube video in the ‘Skills’ section which provides some simple netball-related activities the user can do with their own children. The user can also do the multiple choice quiz in the ‘Quiz’ section to learn more general knowledge about netball. 
 
-*Returning user - *I am a returning user who previously completed The Netball Hub’s 'Skills' video with my child. I'm keen to find out where I can access more of these as we really enjoyed it, and I’d also like to do a different netball-related activity with my child.* 
+* Returning user - *I am a returning user who previously completed The Netball Hub’s 'Skills' video with my child. I'm keen to find out where I can access more of these as we really enjoyed it, and I’d also like to do a different netball-related activity with my child.* 
 
 This user can click on a link at the bottom of the text in the ‘Skills’ section which takes them to a page on the England Netball’s website where further videos are available containing more ball skills and challenges that can be done at home. 
 
@@ -20,7 +20,7 @@ The user could also next navigate to the ‘Quiz’ section (by scrolling down o
 
 This user could also choose to look at the Superleague section and discover more about teams that play semi-professionally, perhaps enabling the user to plan to watch a match live or on tv. 
 
-* I am a returning user who has already completed the quiz, and followed the video provided, looked at the map and I am now looking for further things to do and ways to find out more information about netball.* 
+* Returning user - *I am a returning user who has already completed the quiz, and followed the video provided, looked at the map and I am now looking for further things to do and ways to find out more information about netball.* 
 
 This user would benefit from going directly to the newsletter section of the website, by scrolling down to this section or selecting the ‘Newsletter’ option in the navigation menu – here the user can complete the form by inputting their first name, last name and e-mail address, and look forward to receiving ideas for netball-related activities and updates in The Netball Hub’s monthly newsletter. By completing the form the user will receive a thank you message, and will then shortly receive an email confirming that they have been signed up to the newsletter. 
 
