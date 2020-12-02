@@ -7,22 +7,6 @@ body {
   height: 100%;
 }
 
-.navbar {
-    background-color: white;
-}
-
-@media screen and (max-width: 568px) {
-    .navbar-brand {
-    width: 200px;
-    }
-}
-
-#footer {
-    background-color: #f8f9fa;
-    padding: 10px;
-}
-
-
 /*--------------------------------------------------------Fonts*/
 
 h1,h2,h3 {
@@ -36,6 +20,20 @@ h1,h2,h3 {
 p {
     font-family: "Open Sans", sans-serif;
 }
+
+/*--------------------------------------------------------Navbar*/
+
+.navbar {
+    background-color: white;
+}
+
+@media screen and (max-width: 568px) {
+    .navbar-brand {
+    width: 200px;
+    }
+}
+
+/*--------------------------------------------------------Hero image section*/
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/hero-image.jpg");
@@ -110,12 +108,6 @@ h2 {
     font-size: 2.5rem;
 }
 
-@media screen and (max-width: 768px) {
-    h2 {
-        text-align: center;
-    }
-}
-
 h3 {
     font-size: 1rem;
 }
@@ -154,6 +146,12 @@ h3 {
     padding: 15px;
 }
 
+@media screen and (max-width: 768px) {
+    h2 {
+        text-align: center;
+    }
+}
+
 /*--------------------------------------------------------About section*/
 
 .dots{
@@ -188,12 +186,11 @@ h3 {
 }
 
 .england-netball-link {
-    color: #17a2b8
+    color: #17a2b8;
 }
 
 .england-netball-link:hover {
-    color: #ffcc00
-    
+    color: #ffcc00;
 }
 
 /*--------------------------------------------------------Skills section*/
@@ -235,12 +232,6 @@ h3 {
     margin-left:0px;
 }
 
-@media screen and (min-width: 768px) {
-    .quiz-style {
-        padding: 40px;
-    }
-}
-
 .quiz-intro-style {
     padding: 30px;
 }
@@ -266,7 +257,11 @@ h3 {
     font-family: "Quicksand", sans-serif;
 }
 
-
+@media screen and (min-width: 768px) {
+    .quiz-style {
+        padding: 40px;
+    }
+}
 
 /*--------------------------------------------------------Teams section*/
 
@@ -285,11 +280,15 @@ h3 {
     }
 }
 
-/*-------------------------------------------------------- newsletter */
+/*-------------------------------------------------------- Newsletter section */
 
 .newsletter-form {
     width: 500px;
     padding: 20px;
+}
+
+.newsletter-btn {
+    padding: 10px;
 }
 
 @media screen and (max-width: 540px) {
@@ -300,12 +299,7 @@ h3 {
     }
 }
 
-.newsletter-btn {
-    padding: 10px;
-
-}
-
-/*-------------------------------------------------------- Map */
+/*-------------------------------------------------------- Map section */
 
 #map {
     height: 400px;
@@ -334,6 +328,11 @@ h3 {
 }
 
 /*-------------------------------------------------------- Footer */
+
+#footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
 
 .fa-facebook-f {
     color: #ff4d4d;
