@@ -28,11 +28,6 @@ Click [here](https://chloelewisdev.github.io/milestone-project-2/) to view the w
 * [Technologies Used](#Technologies-Used)
 
 * [Testing](#Testing)
-    * [Testing User Stories](#Testing-User-Stories)
-    * [Validating The Code](#Validating-the-code)
-    * [Testing on different browsers](#Testing-on-different-browsers)
-    * [Testing responsiveness on multiple devices and screen sizes](#Testing-responsiveness-on-multiple-devices-and-screen-sizes)
-    * [Issues found](#Issues-found)
 
 * [Deployment](#Deployment)
 
