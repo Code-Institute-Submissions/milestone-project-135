@@ -85,6 +85,22 @@ p {
     padding: 50px;
 }
 
+@media screen and (max-width: 768px) {
+    .about-style
+    .skills-style 
+    .quiz-section-style
+    .newsletter-style
+    .teams-style {
+       padding:30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .teams-style {
+       padding:40px;
+    }
+}
+
 /*--------------------------------------------------------Heading styles */
 h1 {
     font-size: 3rem;
@@ -186,7 +202,6 @@ h3 {
     padding-top: 10px;
 }
 .skills-text{
-
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -227,7 +242,7 @@ h3 {
 }
 
 .quiz-intro-style {
-    padding: 20px;
+    padding: 30px;
 }
 
 .quizspan {
@@ -240,16 +255,18 @@ h3 {
     font-weight: bold;
 }
 
-
 #after_submit {
     visibility: hidden;
     padding: 20px;
 }
 
 #number_correct {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
+    font-family: "Quicksand", sans-serif;
 }
+
+
 
 /*--------------------------------------------------------Teams section*/
 
@@ -257,8 +274,8 @@ h3 {
     padding-top: 10px;
 }
 .teams-text{
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -278,6 +295,8 @@ h3 {
 @media screen and (max-width: 540px) {
     .newsletter-form {
         width: 260px;
+        padding-right:30px;
+        padding-left:10px;
     }
 }
 
