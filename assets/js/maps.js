@@ -91,3 +91,8 @@ function initMap() {
     }
 }
 
+// Sources of guidance used to create this code: 
+//https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+//https://developers.google.com/maps/documentation/javascript/markers
+//https://www.taniarascia.com/google-maps-apis-for-multiple-locations/
+
