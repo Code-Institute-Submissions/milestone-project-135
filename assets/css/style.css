@@ -73,7 +73,7 @@ p {
 }
 
 .quiz-section-style {
-    padding: 40px;
+    padding: 20px;
 }
 
 .teams-style {
@@ -171,6 +171,15 @@ h3 {
   display: inline-block;
 }
 
+.england-netball-link {
+    color: #17a2b8
+}
+
+.england-netball-link:hover {
+    color: #ffcc00
+    
+}
+
 /*--------------------------------------------------------Skills section*/
 
 .skills-body {
@@ -206,7 +215,15 @@ h3 {
 
 .quiz-style{
     width: 90%;
-    padding: 40px;
+    padding: 10px;
+    margin-right: 0px;
+    margin-left:0px;
+}
+
+@media screen and (min-width: 768px) {
+    .quiz-style {
+        padding: 40px;
+    }
 }
 
 .quiz-intro-style {
@@ -218,7 +235,8 @@ h3 {
 }
 
 .question {
-    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
     font-weight: bold;
 }
 
