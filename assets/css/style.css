@@ -27,9 +27,9 @@ p {
     background-color: white;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 560px) {
     .navbar-brand {
-    width: 200px;
+    width: 130px;
     }
 }
 
@@ -93,9 +93,15 @@ p {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
+    .about-style
+    .skills-style 
+    .quiz-section-style
     .teams-style {
-       padding:40px;
+       padding:20px;
+    }
+    .newsletter-style {
+        padding: 15px;
     }
 }
 
@@ -149,6 +155,7 @@ h3 {
 @media screen and (max-width: 768px) {
     h2 {
         text-align: center;
+        font-size: 2rem;
     }
 }
 
@@ -295,7 +302,7 @@ h3 {
     .newsletter-form {
         width: 260px;
         padding-right:30px;
-        padding-left:10px;
+        padding-left:30px;
     }
 }
 
