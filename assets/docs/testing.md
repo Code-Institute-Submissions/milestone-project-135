@@ -55,7 +55,7 @@ The following errors were brought up on the index.html file:
 * Duplication of the word ‘class’ in a div in the quiz section. I corrected this by removing the duplicated word and adding the content of the duplicated 'class' to the original 'class'. 
 * It was shown that I do not need to include type=”text/javascript” in the script tag used for the EmailJS and GoogleAPI scripts in the head. I corrected this by deleting this.
 I made these updates the code passed with no errors or warnings to show. 
-* *(Note - removing "type=text/javascript" from the head script tag seemed to stop the email sending for my mentor when testing during the final project meeting. As this code was taken directly from EmailJs instructions, I decided to add it back in. The e-mail service then continued to work correctly.*
+* *(Note - removing "type=text/javascript" from the head script tag seemed to stop the email sending for my mentor when testing during the final project meeting. As this code was taken directly from EmailJs instructions, I decided to add it back in. The e-mail service then continued to work correctly.)*
 
 #### CSS
 I validated the CSS with the [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
@@ -74,7 +74,7 @@ This brought up the following errors with the steps I took to correct them:
 
 ![JSHint Maps Error ](https://github.com/chloelewisdev/milestone-project-2/blob/master/assets/images/jshint-error.png)
 
-I tried Googling this error and understand it to some extent but unfortunately with the time constraints of the course I was unable to fix this problem.
+I tried Googling this error and understand it to some extent but unfortunately I was unable to fix this problem.
 
 * *sendEmail.js* - I received the following error message 'Trailing comma in arguments lists' is only available in ES8 (use 'esversion: 8').' I did some research and found an article on Stackoverflow which suggested putting /*jshint esversion: 6 */ to the top of the file. I edited this to ‘8’ as this was the version referenced in the error warning, and the problem was fixed.
 
@@ -84,7 +84,7 @@ I added the semicolon in to make the code read window.onscroll = function() {scr
 
 ### Manually testing the functionality of links, video, quiz, map, newsletter form
 
-* **Links**
+#### Links
 The following tests were carried out to ensure all links work correctly:
 - Navigation - I clicked on the logo to make sure I was correctly taken to https://chloelewisdev.github.io/milestone-project-2/index.html and the start of the page. 
 I clicked on menu options in the nav bar and each link took me to the correct section on the page. The title was missing on several of the sections unfortunately but I was unable to fix this.
@@ -94,26 +94,22 @@ I clicked on menu options in the nav bar and each link took me to the correct se
 - I clicked on the 'Back to top' button and it successfully scrolls the user up to the top of the page.
 - Buttons - clicked on the 'Submit' button of the quiz, and the results section is revealed. Clicked the 'Try Again' button in the results section of the quiz, and the quiz is refreshed and score set to back to zero. Clicked 'Submit' on the newsletter without completing the required fields, and the user is alerted to the required fields that still need to be completed. Completed the fields, clicked the 'Submit' button and the modal message appears, and then the page is correctly refreshed submitting the form. 
 
-* **Video**
+#### Video
 - I clicked play on the embedded YouTube video in the 'Skills' section and this played correctly.
 
-* **Quiz**
-I manually tested the quiz by fistly choosing one incorrect answer and submitting this one-by-one, checking the score showed zero.
-I subsequently did this for two incorrect answers, three incorrect answers and four incorrect answers, checking the score received was zero each time.
+#### Quiz
+- I manually tested the quiz by fistly choosing one incorrect answer and submitting this one-by-one, checking the score showed zero. I subsequently did this for two incorrect answers, three incorrect answers and four incorrect answers, checking the score received was zero each time. I then chose the correct answer for each question and submitted this one-by-one, checking the score showed one each time. I subsequently did this for two correct answers, three correct answers and four correct answers, checking the score received was correct each time.
 
-I then chose the correct answer for each question and submitted this one-by-one, checking the score showed one each time.
-I subsequently did this for two correct answers, three correct answers and four correct answers, checking the score received was correct each time.
-
-* **Map**
+#### Map
 - I checked the map showed ten different markers, and that each marker showed an infowindow - all were working correctly, showing the name of the team, along with a link to the team's website (see above for link testing of these).
 
-* **Newsletter**
+#### Newsletter
 - I tried completing the form by not entering all the required fields. A message pointer on the form showed the fields that still needed to be completed. I tried this for each of the three fields - the message showed correctly and I was unable to submit the form until all fields were complete. The modal message then showed successfully and the page then refreshed. 
 
-#### Issues found:
+#### Issues found from manual testing:
 Logo in nav bar and maps - I noticed that the maps section stopped working when I clicked on the logo in the nav bar. The URL was set to https://chloelewisdev.github.io/milestone-project-2/index.html when the user clicks the logo in the nav bar. However when I was viewing the page on https://chloelewisdev.github.io/milestone-project-2/ the maps worked well. I fixed the problem by going into API Cloud Platform account, and adding https://chloelewisdev.github.io/milestone-project-2/index.html as one of the URLs in the key website restrictions. This then seemed to solve the problem and the maps loaded properly when I refreshed for https://chloelewisdev.github.io/milestone-project-2/index.html.
 
-Quiz - whilst developing the quiz, I realised that I had incorrectly spelled the word 'million' for the value in the third question (question3) - therefore the scoring system was not working correctly.I realised the scores were wrong and then identified question3 as the problem by checking the score was showing correctly for each question. When i realised it was the third question, I identified the error by checking all the names, values and ids in the index.html code matched those in the quiz.js file. I realised the value in the html code was written 'milllion' - once this was updated the scores worked correctly. 
+Quiz - whilst developing the quiz and manually testing its functionality, I realised that I had incorrectly spelled the word 'million' for the value in the third question (question3) - therefore the scoring system was not working correctly. I realised the scores were wrong and then identified question3 as the problem by checking the score was showing correctly for each question. When I realised it was the third question, I identified the error by checking all the names, values and ids in the index.html code matched those in the quiz.js file. I realised the value in the html code was written 'milllion' - once this was updated the scores worked correctly. 
 
 ### Testing on different browsers:
 I manually tested the website on the following browsers:
@@ -123,7 +119,7 @@ I manually tested the website on the following browsers:
 
 ### Testing responsiveness on multiple devices and screen sizes:
 
-* I manually tested the website by using Google Developer Tools to check each individual section and the website as a whole worked on different devices and different screen sizes, including: Moto G4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5 SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro. I also manually tested the site on my MacBook Air, iPad, and iPhone 11.
+* I manually tested the website by using Google Developer Tools to check each individual section and the website as a whole worked on different devices and different screen sizes, including: Moto G4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5 SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro, Surface Duo and Galaxy Fold. I also manually tested the site on my MacBook Air, iPad, and iPhone 11.
 * By using Google Developer Tools I checked that the Google Maps feature still worked on smaller screens as well as each individual marker.
 * By using Google Developer Tools I checked that the quiz displayed properly on smaller screens, as well as the results section which was only shown when the user submits their answers. 
 * I checked the form was displayed correctly on smaller screens and that the modal message appeared correctly on smaller screens too once the form was submitted. 
