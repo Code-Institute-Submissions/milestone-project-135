@@ -52,37 +52,34 @@ I validated the HTML with the [W3C Markup Validation Service](https://validator.
 
 **Issues found** 
 The following errors were brought up on the index.html file:
-    *Duplication of the word ‘class’ in a div in the quiz section. I corrected this by removing the duplicated word and adding the content of the duplicated 'class' to the original 'class'. 
-    *It was shown that I do not need to include type=”text/javascript” in the script tag used for the EmailJS and GoogleAPI scripts in the head. I corrected this by deleting this.
+* Duplication of the word ‘class’ in a div in the quiz section. I corrected this by removing the duplicated word and adding the content of the duplicated 'class' to the original 'class'. 
+* It was shown that I do not need to include type=”text/javascript” in the script tag used for the EmailJS and GoogleAPI scripts in the head. I corrected this by deleting this.
 I made these updates the code passed with no errors or warnings to show. 
- *(Note - removing "type=text/javascript" from the head script tag seemed to stop the email sending for my mentor when testing during the final project meeting. As this code was taken directly from EmailJs instructions, I decided to add it back in. The e-mail service then continued to work correctly.*
+* *(Note - removing "type=text/javascript" from the head script tag seemed to stop the email sending for my mentor when testing during the final project meeting. As this code was taken directly from EmailJs instructions, I decided to add it back in. The e-mail service then continued to work correctly.*
 
 #### CSS
 I validated the CSS with the [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 **Issues found**
 The following errors were brought up for the style.css file:
-    * The padding for the #quiz div was written incorrectly, and needed to be separated to show padding-top and padding-bottom. Once I updated this, no errors were shown.
+* The padding for the #quiz div was written incorrectly, and needed to be separated to show padding-top and padding-bottom. Once I updated this, no errors were shown.
 
 #### JavaScript
 I used [JSHint](https://jshint.com/) to check my JavaScript files.
-
-    * *quiz.js* - no errors were shown for this file
+* *quiz.js* - no errors were shown for this file
 
 **Issues found**
 This brought up the following errors with the steps I took to correct them:
-
-    * *maps.js* - the following error message was shown: "Bad escaping of EOL. Use option multistr if needed." I discovered an article on Stackoverflow which can be viewed [here](https://stackoverflow.com/questions/17832052/bad-escaping-of-eol) which suggesting putting /*jshint multistr: true */ at the start of the file. 
-    I added this and the problem was fixed. I was also shown that semicolons were missing on several lines, I added these which fixed the problem. Finally I received this error message: 'The following Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (infowindow, locations, map)'
-    Please see below a screenshot of this error:
+* *maps.js* - the following error message was shown: "Bad escaping of EOL. Use option multistr if needed." I discovered an article on Stackoverflow which can be viewed [here](https://stackoverflow.com/questions/17832052/bad-escaping-of-eol) which suggesting putting /*jshint multistr: true */ at the start of the file. I added this and the problem was fixed. I was also shown that semicolons were missing on several lines, I added these which fixed the problem. Finally I received this error message: 'The following Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (infowindow, locations, map)'. Please see below a screenshot of this error:
 
 ![JSHint Maps Error ](https://github.com/chloelewisdev/milestone-project-2/blob/master/assets/images/jshint-error.png)
 
 I tried Googling this error and understand it to some extent but unfortunately with the time constraints of the course I was unable to fix this problem.
 
-    * *sendEmail.js* - I received the following error message 'Trailing comma in arguments lists' is only available in ES8 (use 'esversion: 8').' I did some research and found an article on Stackoverflow which suggested putting /*jshint esversion: 6 */ to the top of the file. I edited this to ‘8’ as this was the version referenced in the error warning, and the problem was fixed.
+* *sendEmail.js* - I received the following error message 'Trailing comma in arguments lists' is only available in ES8 (use 'esversion: 8').' I did some research and found an article on Stackoverflow which suggested putting /*jshint esversion: 6 */ to the top of the file. I edited this to ‘8’ as this was the version referenced in the error warning, and the problem was fixed.
 
-    * *script.js* - It was shown that a semicolon was missing from the hamburger icon for this line of code: window.onscroll = function() {scrollFunction()}; 
+* *script.js* - It was shown that a semicolon was missing from the hamburger icon for this line of code: window.onscroll = function() {scrollFunction()}; 
+
 I added the semicolon in to make the code read window.onscroll = function() {scrollFunction()**;**}; and the problem was fixed. 
 
 ### Manually testing the functionality of links, video, quiz, map, newsletter form
