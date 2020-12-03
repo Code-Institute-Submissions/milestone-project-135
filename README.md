@@ -59,7 +59,6 @@ I started the UX process by creating the User Stories above which helped me work
 
 The website should be professional, so that the main messages are clearly communicated, but also interactive, fun and engaging so that the content is appealing too. Therefore the website should be user-friendly, providing an easy navigation journey to reach different sections with ease. 
 
-
 **Project goals:**
 * To promote the benefits of playing netball for young children
 * To provide netball-related activities that can be used by parents and care-givers in order to engage and interest children in the sport at home
@@ -187,7 +186,7 @@ The project consists of one single page, with five different sections, all of wh
     * I used Figma to create wireframes for my project for desktop, mobile and iPad. 
 * [Canva](https://www.canva.com/)
     * I used Canva to create The Netball Hub’s logo 
-* [Unsplash](https://unsplash.com/)
+* [Free Images](https://www.freeimages.com/)
     * This was the source for the hero image in my project, please see the Media section below for more details on this. 
 * [Google Fonts](https://fonts.google.com/)
     * I used the following Google fonts for the project: Quicksand and Open Sans 
@@ -261,17 +260,19 @@ The benefits of hosting your website on GitHub pages is that any pushed changes 
 ## Credits
 
 ### Content
-The content for this website is fictional and written by myself. The hero image used on the website was taken from Unsplash and is referenced below. 
+The content for this website is fictional and written by myself. The hero image used on the website was taken from Free Images and is referenced below.  The video for the 'Skills' section was taken from the Bee Netball section of the England Netball's website and is fully referenced below.
 
 I found the Code Institute Slack Community's Peer Code Review channel really useful to look through when considering the content for this project. 
 
 ### Media
-* The stock image used for the hero image can be found at the following link: [Unsplash](https://unsplash.com/photos/2JOxWQoxGtU)
+* The stock image used for the hero image was taken by Craig Elliot and can be found at the following link: [Free Images](https://www.freeimages.com/photo/blue-sky-at-netball-court-1140567)
+
+* The video used in the Skills section of the website was taken from England Netball's [YouTube channel](https://www.youtube.com/watch?v=3tYHHySKIf0&feature=youtu.be)
 
 ## Acknowledgements
-Thanks to my mentor Seun Owonikoko for her useful suggestions and time.  
+Thanks to my mentor Seun Owonikoko for her useful suggestions and time with this project.  
 
 Thanks to the Code Institute Slack Community.
 
-Thanks also to my family for taking the time to look over the website and their feedback.
+Thanks also to my family and friends for taking the time to look over the website, test the features and for providing feedback.
 
