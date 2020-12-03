@@ -206,6 +206,7 @@ The project consists of one single page, with five different sections, all of wh
 * [Youtube](https://www.youtube.com/) - General resource for JavaScript, and also used for the England Netball Bee@Home video displayed on the website
 * [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
 * [Bootstrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) – Resource used for Bootstrap grid layouts
+* [Kevin Briggs Javascript Tutorial Make A Quiz](https://www.youtube.com/watch?v=C7NsIRhoWuE) - This was a helpful resource on creating a quiz using JavaScript
 
 ## Testing:
 

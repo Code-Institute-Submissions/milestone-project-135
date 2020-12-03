@@ -20,3 +20,6 @@ function sendMail(contactForm) {
     return false; // To block from loading a new page
 }
 
+//Resources used to create this code:
+//https://www.emailjs.com/docs/tutorial/creating-contact-form/
+//https://www.emailjs.com/docs/sdk/send/

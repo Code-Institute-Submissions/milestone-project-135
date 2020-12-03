@@ -10,7 +10,7 @@ $(".nav-link").on("click", function() {
 //Scroll to top button
 var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, thw button shows
+// When the user scrolls down 20px from the top of the document, the button shows
 window.onscroll = function() {
     scrollFunction();
 };
@@ -29,7 +29,10 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-// Closes mobile dropdown menu after item clicked            
+// Closes mobile dropdown menu after item clicked - source: https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click        
 $('.navbar-nav>li>a').on('click', function() {
     $('.navbar-collapse').collapse('hide');
 });
+
+
+
