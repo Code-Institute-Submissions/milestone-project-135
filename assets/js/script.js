@@ -1,3 +1,4 @@
+//Only runs function when page is ready:
 $(document).ready(function() {
 
 //Add or remove active class on nav 
@@ -7,7 +8,7 @@ $(".nav-link").on("click", function() {
     });
 });
 
-//Scroll to top button
+//Scroll to top button - code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, the button shows

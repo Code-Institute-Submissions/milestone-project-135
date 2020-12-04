@@ -1,4 +1,7 @@
 /*jshint multistr: true */
+
+//Main source for this code: https://www.taniarascia.com/google-maps-apis-for-multiple-locations/
+
 function initMap() {
 //The location of the netball superleague teams and content to be added to each marker    
     var locations = [{
@@ -63,7 +66,7 @@ function initMap() {
         }
     ];
 
-//Set the map to center of Great Britain to enable all markers to show
+//Set the map to center of Great Britain to enable all markers to show for England, Wales and Scotland
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 5.5,
         center: new google.maps.LatLng(54.403465, -1.732618),
@@ -95,8 +98,8 @@ function initMap() {
     }
 }
 
-// Sources of guidance used to create this code: 
+//Other sources of guidance used to create this code: 
 //https://developers.google.com/maps/documentation/javascript/adding-a-google-map
 //https://developers.google.com/maps/documentation/javascript/markers
-//https://www.taniarascia.com/google-maps-apis-for-multiple-locations/
+
 

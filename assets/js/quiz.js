@@ -1,3 +1,5 @@
+//Main source for code - Kevin Briggs YouTube Javascript tutorial - make a quiz https://www.youtube.com/watch?v=C7NsIRhoWuE 
+
 function check() {
 
     var question1 = document.quiz.question1.value;
@@ -25,7 +27,7 @@ function check() {
         correct++;
     }
 
-//Reveal results
+//Reveals results
     document.getElementById("after_submit").style.visibility = "visible";
     document.getElementById("number_correct").innerHTML = "You got " + correct + " correct out of 4.";
 
@@ -39,5 +41,5 @@ fullReset.addEventListener('click', function() {
 }, false);
 
 // Sources of guidance used: 
-//https://www.youtube.com/watch?v=C7NsIRhoWuE 
+
 //https://stackoverflow.com/questions/40371972/resetting-a-quiz-with-reset-button
