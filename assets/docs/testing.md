@@ -13,9 +13,9 @@ To return to the previous document, click [here](https://github.com/chloelewisde
 
 #### New users
 
-* ***I am a parent who wants to find ways of introducing netball to my young children aged 4 and 6. All local clubs in my area provide netball for children from around the age of 9, and so I’m looking to find some inspiration online instead.*** 
+* ***I am a parent who wants to find ways of introducing netball to my young children aged 5 and 7. All local clubs in my area provide netball for children from around the age of 9, and so I’m looking to find some inspiration online instead.*** 
 
-This user can click on the short YouTube video in the ‘Skills’ section, to learn about some ball drills and skills they can then easily do with their children at home. 
+This user can click on the short YouTube video in the ‘Skills’ section, to learn about some ball drills and challenges they can then easily do with their children at home. 
 The user can navigate to the ‘Quiz’ section (by scrolling down or selecting ‘Quiz’ in the navigation menu), and could do the short-multiple quiz section with their children to see how much they know and learn some fun facts about netball. To do the quiz, the user can click on an answer (radio button) for each question, then press ‘Results’ which reveals a section giving the user a score out of 4. If they want to take the quiz again or give another user a turn, the user can click on the ‘Try Again’ button to refresh the quiz and start from the beginning (with score set to ‘0’). 
 
 The user can also navigate to the ‘Superleague Teams’ section via the fixed navigation menu or by scrolling down, where they can learn about the locations of the superleague teams by looking at the map and the markers. Here the user can click on a marker to check individual team information and click on a link to visit the relevant team website, where the user can view upcoming matches they could watch with their children if close to their location, or see if any upcoming matches are being shown on Sky Sports. 
