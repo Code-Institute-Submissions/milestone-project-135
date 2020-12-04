@@ -6,7 +6,7 @@
 
 The Netball Hub is a fictional organisation that aims to inform parents and caregivers of young children about the benefits of playing netball from a young age, and to provide different ways they can engage their children in the sport.
 
-The idea for this website came to me as I am a keen netball player who wants to encourage my children to get involved in the sport from a young age. Often netball clubs are only available for children in their upper primary years, however I believe even younger children would benefit from learning more about the sport. I have looked at ways to encourage my children’s interest in the sport and seen them really enjoy simple activities, and I thought it might be useful to create a platform that shares these ideas for other people in a similar situation.  
+The idea for this website came to me as I am a keen netball player who wants to encourage my children to get involved in the sport from a young age. Often netball clubs are only available for children in their upper primary years, however I believe even younger children would benefit from learning more about and playing the sport. I have looked at ways to encourage my children’s interest in the sport and seen them really enjoy simple activities, and I thought it might be useful to create a platform that shares these ideas for other people in a similar situation.  
 
 This was the second of four Milestone Projects that made up the Full Stack Web Development Program at The Code Institute. The main requirements were to make an interactive and responsive website with HTML5, CSS3 and JavaScript.
 
@@ -43,7 +43,7 @@ This section provides insight into the UX process, focusing The Netball Hub webs
 ### User Stories
 
 **New users:** 
-* I am a parent who wants to find ways of introducing netball to my young children aged 4 and 6. All local clubs in my area provide netball for children from around the age of 9, and so I’m looking to find some inspiration online instead. 
+* I am a parent who wants to find ways of introducing netball to my young children aged 5 and 7. All local clubs in my area provide netball for children from around the age of 9, and so I’m looking to find some inspiration online instead. 
 * I am a user who knows nothing about netball, however I am searching for ways to keep my children active and healthy. I am interested to learn more about netball and why I would engage my children in netball activities. 
 
 **Returning user:**
@@ -123,7 +123,7 @@ Colours were an important choice – it became apparent quite early on when I wa
 I used Canva to create the logo and decided on a logo template that had writing accompanied by 3 circles, which could hint at netball balls. I therefore needed 3 colours for the circles in the logo. 
 
 I wanted the colours to be bright, and was inspired by those used in the 'Bee @Home video' I had decided to use for the Skills section, from the England Netball website. I therefore decided to use similar colours in the logo and decided to
- alternate these for the different headings too. I used a softer red colour, #ff4d4d a yellow #ffcc00 and a turquiose #17a2b8. I also decided the yellow was a good background for the quiz, as it would make the feature stand out whilst ensuring the words would still be clearly visible and legible. 
+alternate these for the different headings too. I used a softer red colour, #ff4d4d a yellow #ffcc00 and a turquiose #17a2b8. I also decided the yellow was a good background for the quiz, as it would make the feature stand out whilst ensuring the words would still be clearly visible and legible. 
 
 I also decided to use the circles to add some extra design to the ‘About’ and ‘Quiz’ section, which looked quite flat with only text and a white background. 
 
