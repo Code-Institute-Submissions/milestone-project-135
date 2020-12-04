@@ -8,7 +8,7 @@ The Netball Hub is a fictional organisation that aims to inform parents and care
 
 The idea for this website came to me as I am a keen netball player who wants to encourage my children to get involved in the sport from a young age. Often netball clubs are only available for children in their upper primary years, however I believe even younger children would benefit from learning more about and playing the sport. I have looked at ways to encourage my children’s interest in the sport and seen them really enjoy simple activities, and I thought it might be useful to create a platform that shares these ideas for other people in a similar situation.  
 
-This was the second of four Milestone Projects that made up the Full Stack Web Development Program at The Code Institute. The main requirements were to make an interactive and responsive website with HTML5, CSS3 and JavaScript.
+This was the second of four Milestone Projects that made up the Full Stack Web Development Program at The Code Institute. The main requirements were to make an interactive and responsive website with HTML, CSS and JavaScript.
 
 Click [here](https://chloelewisdev.github.io/milestone-project-2/) to view the website live. 
 
