@@ -306,6 +306,13 @@ h3 {
     }
 }
 
+#firstname {
+    margin-bottom: 5px;
+}
+
+#lastname {
+    margin-bottom:5px;
+}
 /*-------------------------------------------------------- Map section */
 
 #map {
