@@ -123,7 +123,9 @@ I manually tested the website on the following browsers:
 * By using Google Developer Tools I checked that the Google Maps feature still worked on smaller screens as well as each individual marker.
 * By using Google Developer Tools I checked that the quiz displayed properly on smaller screens, as well as the results section which was only shown when the user submits their answers. 
 * I checked the form was displayed correctly on smaller screens and that the modal message appeared correctly on smaller screens too once the form was submitted. 
-* I also asked family to visit the website on their devices including a variety of mobiles and tablets, interact with the page and complete the form. 
+* I asked family to visit the website on their devices including a variety of mobiles and tablets, interact with the page and complete the form. 
+* I also asked for feedback on the Code Institute's Slack Community Peer Review channel, and a fellow student Jay Bradley manually tested the site and commented that the fields on the newsletter form were quite close together. I updated the CSS to add some margin to the fields in response to this feedback. 
+
 
 To return to the previous document, click [here](https://github.com/chloelewisdev/milestone-project-2/blob/master/README.md).
 
